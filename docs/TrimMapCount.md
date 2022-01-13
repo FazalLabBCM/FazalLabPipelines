@@ -1,7 +1,7 @@
 # TrimMapCount
-The [TrimMapCount](https://fazallabbcm.github.io/TrimMapCount) pipeline will map your RNA 
-sequences to a reference genome and count how many reads map to each gene. This process produces 
-useful data files from your raw data.
+The [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelinesTrimMapCount) pipeline will map 
+your RNA sequences to a reference genome and count how many reads map to each gene. This process 
+produces useful data files from your raw data.
 
 
 ## Setup
