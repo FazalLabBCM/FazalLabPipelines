@@ -11,12 +11,12 @@ useful or even readable the way it is, but it contains the results of your exper
 Your goal is to process this raw data with the provided pipelines in order to generate 
 useful output files and figures. Follow the steps and links below to begin!
 
-1. To start, use the [TrimMapCount](https://fazallabbcm.github.io/TrimMapCount) pipeline. 
+1. To start, use the [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) pipeline. 
    This is always step 1. It will map your RNA sequences to a reference genome and count 
    how many reads map to each gene. This process produces useful data files from your raw 
    data.
 
-2. Next, run the [ProcessCounts](https://fazallabbcm.github.io/ProcessCounts) pipeline. 
+2. Next, run the [ProcessCounts](ProcessCounts.md) pipeline. 
    This will use the output from TrimMapCount to create simple tables and figures. These 
    tables and figures help show the quality of your raw data and the results of your 
    experiment.
