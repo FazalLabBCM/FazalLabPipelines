@@ -1,5 +1,5 @@
 # TrimMapCount
-The [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelinesTrimMapCount) pipeline will map 
+The [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) pipeline will map 
 your RNA sequences to a reference genome and count how many reads map to each gene. This process 
 produces useful data files from your raw data.
 
@@ -12,7 +12,8 @@ and the `projects` folder is for all of your tables, figures, and log files (log
 of the progress of your running projects).
 
 To begin, you should create a `rawdata` folder, `data` folder, and `project` folder all with the 
-same name. For example, your file structure should look like this:
+same name. The name should have today's date (YYYYMMDD) and a title for your project separated by 
+an underscore. For example, your file structure and file names should look something like this:
 ![](img/fazallab_filestructure.png)
 
 
