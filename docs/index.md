@@ -1,4 +1,4 @@
-# Fazal Lab Pipelines
+# Pipelines to Process Your Raw Data
 Congratulations! You have just collected raw data from an experiment, and now you need 
 to process it! This page has instructions for when and how to use use each of the 
 Fazal Lab pipelines.
