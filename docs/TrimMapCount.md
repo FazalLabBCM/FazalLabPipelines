@@ -12,7 +12,7 @@ produces useful data files from your raw data.
 > To use the pipelines, you will need to know how to use a few simple commands on the 
 > [TACO cluster](http://taco-wiki.grid.bcm.edu/mediawiki/index.php/MHGCP_User_Quick_Start_Guide). 
 > If you don't know how to sign in to the cluster, navigate in and out of folders, or make new folders, 
-> visit this link: [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicLinuxCommands)
+> visit this link: [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
 
 
 #### Making project folders
