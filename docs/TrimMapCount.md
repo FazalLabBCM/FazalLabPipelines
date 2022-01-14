@@ -12,7 +12,7 @@ produces useful data files from your raw data.
 > To use the pipelines, you will need to know how to use a few simple commands on the 
 > [TACO cluster](http://taco-wiki.grid.bcm.edu/mediawiki/index.php/MHGCP_User_Quick_Start_Guide). 
 > If you don't know how to sign in to the cluster, navigate in and out of folders, or make new folders, 
-> visit this link: [Basic Linux Commands](https://fazallabbcm.github.io/FazalLabPipelines/BasicLinuxCommands)
+> visit this link: [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicLinuxCommands)
 
 
 #### Making project folders
@@ -33,7 +33,7 @@ Naming and arranging our folders this way will help keep the TACO cluster organi
 If your data is from an experiment with multiple cell locations, create folders inside the `rawdata` 
 and `data` folders for each cell location like this:
 
-<img src="img/fazallab_filestructure2.png" width="50%" height="50%">
+<img src="img/fazallab_filestructure2.png" width="57.5%" height="57.5%">
 
 
 #### Naming raw data files
@@ -55,17 +55,19 @@ For example, data from the nucleus with two target samples and one control sampl
    ```
 More information can be added to the file names (between underscores) if desired.
 
-Now, move these files into the appropriate folders.
+Now, move these files into the appropriate `rawdata` folders. Your files should now be organized like this:
+
+<img src="img/fazallab_filestructure3.png" width="80%" height="80%">
 
 
-
-
-#### Final check
+#### One last thing
 
 Finally, make sure there is a folder named `star` inside `/storage/fazal/genome/human/2021` and that it 
 is not empty. This folder is important for your data to align to the genome. It likely already 
 exists and has files in it, but visit [this page](https://fazallabbcm.github.io/FazalLabPipelines/GenerateGenome) 
 if not.
+
+Now you are ready to process your raw data!
 
 
 ## Execution
@@ -76,6 +78,7 @@ if not.
    ```
    sbatch /storage/fazal/projects/2022_TrimMapCount/TrimMapCount.sh rawdata data
    ``` 
-   (where `rawdata` is the absolute path to your `rawdata` folder containing the `fastq` files, and `data` is the 
-   absolute path to your data folder where the processed data files will be generated).
+   in the command line. Replace `rawdata` with the absolute path to the `rawdata` folder containing your `fastq` files. 
+   Replace `data` with the absolute path to the `data` folder where your processed data files will be generated. Then 
+   press the "Enter" key.
 
