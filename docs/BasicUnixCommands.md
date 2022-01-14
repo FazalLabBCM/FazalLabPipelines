@@ -22,7 +22,20 @@ Now you're in!
 You may be wondering, "Now I'm in? In where? Where am I on the TACO cluster?" That's a great 
 question! Here's a map:
 
+<img src="img/youarehere.png" width="40%" height="40%">
 
+You are in a folder named `myuserid`, which is inside a folder named `home`. The folder `home` 
+is inside a folder named `fazal`, which is inside the "root" folder named `storage`. To quickly 
+describe where you are, this is your address:
+```
+/storage/fazal/home/myuserid
+```
+This address is also called an absolute path, because it shows the path to your location all the 
+way from the "root" folder. To show this address on the screen, type the command `pwd` and press 
+"Enter".
+
+
+(which holds all of our lab's projects and data).
 
 pwd
 cd
