@@ -31,11 +31,11 @@ describe where you are, this is your address:
 /storage/fazal/home/myuserid
 ```
 This address is also called an absolute path, because it shows the path to your location all the 
-way from the "root" folder. To show this address on the screen, type the command `pwd` and press 
-"Enter".
+way from the "root" folder. To show your current location on the screen, type the command `pwd` and 
+press "Enter". `pwd` stands for "Print Working Directory", which is the same as "show current folder".
 
+<img src="img/pwd.png" width="30%" height="30%">
 
-(which holds all of our lab's projects and data).
 
 pwd
 cd
