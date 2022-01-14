@@ -4,11 +4,17 @@ your RNA sequences to a reference genome and count how many reads map to each ge
 produces useful data files from your raw data.
 
 
+
 ## Setup
 
-To use the pipelines, you will need to know how to use a few simple commands on the TACO cluster. 
-I you don't know how to sign in to the cluster, navigate in and out of folders, or make new folders, 
-visit this link: [Basic Linux Commands](https://fazallabbcm.github.io/FazalLabPipelines/BasicLinuxCommands)
+
+> #### First things first:
+> To use the pipelines, you will need to know how to use a few simple commands on the TACO cluster. 
+> If you don't know how to sign in to the cluster, navigate in and out of folders, or make new folders, 
+> visit this link: [Basic Linux Commands](https://fazallabbcm.github.io/FazalLabPipelines/BasicLinuxCommands)
+
+
+#### Making project folders
 
 On the TACO cluster, the Fazal lab has folders named `rawdata`, `data`, and `projects`. The 
 `rawdata` folder is for your raw data files, the `data` folder is for your processed data files, 
@@ -23,12 +29,13 @@ same name. The name should have today's date and a title for your project separa
 
 Everyone naming and arranging their folders this same way will help keep the TACO cluster organized.
 
-Next, make sure there is a folder named `star` inside `/storage/fazal/genome/human/2021` and that it 
-is not empty. This folder is important for your data to align to the genome. It likely already 
-exists and has files in it, but visit [this page](https://fazallabbcm.github.io/FazalLabPipelines/GenerateGenome) 
-if not.
+If your data is from an experiment with multiple cell locations, create folders inside the `rawdata` 
+and `data` folders for each cell location.
 
-Finally, make sure that each of your `fastq` files are named following these rules:
+
+#### Naming raw data files
+
+Next, make sure that each of your `fastq` files are named following these rules:
    * Each file name has the word "Target" or "Control", surrounded by underscores
    * Each file name has the abbreviation (in all caps) for the sample location, surrounded by underscores
    * Each file name contains which number of target or control, surrounded by underscores
@@ -45,16 +52,22 @@ Finally, make sure that each of your `fastq` files are named following these rul
    More information can be added to the file names if desired.
 
 
+#### Final check
+
+Finally, make sure there is a folder named `star` inside `/storage/fazal/genome/human/2021` and that it 
+is not empty. This folder is important for your data to align to the genome. It likely already 
+exists and has files in it, but visit [this page](https://fazallabbcm.github.io/FazalLabPipelines/GenerateGenome) 
+if not.
+
 
 ## Execution
 
-From the command line, navigate to the project directory where you would like the Slurm `log` file 
-to be generated.
+1. From the command line, navigate to your `project` folder.
 
-Submit a Slurm job  with the code 
-```
-sbatch /storage/fazal/projects/2022_TrimMapCount/TrimMapCount.sh rawdata data
-``` 
-(where `rawdata` is the absolute path to a directory containing the `fastq` files to be used for 
-alignment, and `data` is the absolute path to a directory where the output files will be generated).
+2. Copy and paste the code
+   ```
+   sbatch /storage/fazal/projects/2022_TrimMapCount/TrimMapCount.sh rawdata data
+   ``` 
+   (where `rawdata` is the absolute path to your `rawdata` folder containing the `fastq` files, and `data` is the 
+   absolute path to your data folder where the processed data files will be generated).
 
