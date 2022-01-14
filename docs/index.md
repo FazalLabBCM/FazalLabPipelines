@@ -5,10 +5,10 @@ Fazal Lab pipelines.
 
 
 ## Begin Here
-The raw sequencing data you collected is in `fastq` format. It may also be compressed 
-or zipped to save space (if so, the file names will end in ".gz"). It isn't very 
-useful or even readable the way it is, but it contains the results of your experiment! 
-Your goal is to process this raw data with the provided pipelines in order to generate 
+The raw sequencing data you collected is in `fastq` format (the file names end in ".fastq"). It 
+may also be compressed or zipped to save space (if so, the file names will end in ".fastq.gz"). 
+Your data isn't very useful or even readable this way, but it contains the results of your 
+experiment! Your goal is to process this raw data with the provided pipelines in order to generate 
 useful output files and figures. Follow the steps and links below to begin!
 
 1. To start, use the [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) 
