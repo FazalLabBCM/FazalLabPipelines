@@ -38,24 +38,26 @@ and `data` folders for each cell location like this:
 
 #### Naming raw data files
 
-Next, make sure that each of your `fastq` files are named following these rules:
-   * Each file name has the word "Target" or "Control", surrounded by underscores
-   * Each file name has the abbreviation (in all caps) for the sample location, surrounded by underscores
-   * Each file name contains which number of target or control, surrounded by underscores
-   * Each file name ends in "R1.fastq" or "R2.fastq" (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
+Next, make sure that each of your `fastq` files are named following these rules (in order and separated 
+by underscores):
+   1. Each file name starts with the capitalized and abbreviated cell location (such as "NLS" for nucleus).
+   2. Each file name has an experimental condition (such as a time limit, a cell type, or "none").
+   3. Each file name has the word "target" or "control".
+   4. Each file name has a number to indentify which target or control sample it represents.
+   5. Each file name ends in "R1.fastq" or "R2.fastq" (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files).
 
 For example, data from the nucleus with two target samples and one control sample might be named like this:
    ```
-   Nucleus_NLS_Target_1_R1.fastq
-   Nucleus_NLS_Target_1_R2.fastq
-   Nucleus_NLS_Target_2_R1.fastq
-   Nucleus_NLS_Target_2_R2.fastq
-   Nucleus_NLS_Control_1_R1.fastq
-   Nucleus_NLS_Control_1_R2.fastq
+   NLS_basal_target_1_R1.fastq
+   NLS_basal_target_1_R2.fastq
+   NLS_basal_target_2_R1.fastq
+   NLS_basal_target_2_R2.fastq
+   NLS_basal_control_1_R1.fastq
+   NLS_basal_control_1_R2.fastq
    ```
-More information can be added to the file names (between underscores) if desired.
 
-Now, move these files into the appropriate `rawdata` folders. Your files should now be organized like this:
+Now, move these files into the appropriate `rawdata` location folders. Your files should now be organized like 
+this:
 
 <img src="img/fazallab_filestructure3.png" width="80%" height="80%">
 
