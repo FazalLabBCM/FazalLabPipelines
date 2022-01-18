@@ -15,7 +15,7 @@ useful output files and figures. Follow the steps and links below to begin!
    pipeline. This is always step 1. It will map your RNA sequences to a reference genome and count 
    how many reads map to each gene. This process produces useful data files from your raw data.
 
-2. Next, run the [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts.md) 
+2. Next, run the [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) 
    pipeline. This will use the output from TrimMapCount to create simple tables and figures. These 
    tables and figures help show the quality of your raw data and the results of your experiment.
 
