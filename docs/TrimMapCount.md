@@ -33,7 +33,7 @@ Naming and arranging our folders this way will help keep the TACO cluster organi
 Now, create folders inside the `rawdata` and `data` folders for each combination of cell location and 
 experimental condition in your experiment like this:
 
-<img src="img/filestructure2.png" width="57.5%" height="57.5%">
+<img src="img/filestructure2.png" width="63%" height="63%">
 
 (This step isn't neccessary, but it can save a lot of time. Instead of processing only one sample at a 
 time, separating your data into subfolders makes it possible to process samples for every location and 
@@ -65,7 +65,7 @@ might be named like this:
 
 Now, move these files into the appropriate `rawdata` folders. Your files should now be organized like this:
 
-<img src="img/filestructure3.png" width="80%" height="80%">
+<img src="img/filestructure3.png" width="85%" height="85%">
 
 
 #### One Last Thing
@@ -81,6 +81,7 @@ Now you are ready to process your raw data!
 ## Execution
 
 1. From the command line, navigate to your `project` folder.
+   - (In the example, the absolute path would be `/storage/fazal/projects/20220101_SequencingData`.)
 
 2. Repeat steps 3 through 6 for each location and condition subfolder in your `rawdata` folder.
 
@@ -90,11 +91,11 @@ Now you are ready to process your raw data!
    ``` 
    in the command line.
    
-4. Replace `rawdata` with the absolute path to the `rawdata` subfolder containing your `fastq` files. (In the example, 
-   the absolute path would be `/storage/fazal/rawdata/20220101_SequencingData/NLS_puromycin`.)
+4. Replace `rawdata` with the absolute path to the `rawdata` subfolder containing your `fastq` files.
+   - (In the example, the absolute path would be `/storage/fazal/rawdata/20220101_SequencingData/NLS_puromycin`.)
    
 5. Replace `data` with the absolute path to the `data` subfolder where your processed data files will be generated. 
-   (In the example, the absolute path would be `/storage/fazal/data/20220101_SequencingData/NLS_puromycin`.)
+   - (In the example, the absolute path would be `/storage/fazal/data/20220101_SequencingData/NLS_puromycin`.)
    
 6. Press "Enter" to start the pipeline.
 
