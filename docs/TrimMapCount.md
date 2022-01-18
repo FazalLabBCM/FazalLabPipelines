@@ -43,7 +43,11 @@ this step!)
 
 #### Naming Raw Data Files
 
-Next, make sure that each of your `fastq` files are named following these rules (in order and separated 
+> If you already have the `fastq` data files you would like to process, proceed with the instructions. If you 
+> still need to download the raw data, [click here](https://fazallabbcm.github.io/FazalLabPipelines/DownloadRawData])
+> before continuing.
+
+Make sure that each of your `fastq` files are named following these rules (in order and separated 
 by underscores):
    1. Each file name starts with the capitalized and abbreviated cell location (such as "NLS" for nucleus).
    2. Each file name has an experimental condition (such as a time limit, a cell type, an antibiotic treatment, 
@@ -63,7 +67,7 @@ might be named like this:
    NLS_puromycin_control_1_R2.fastq
    ```
 
-Now, move these files into the appropriate `rawdata` folders. Your files should now be organized like this:
+Now, copy these files into the appropriate `rawdata` folders. Your files should now be organized like this:
 
 <img src="img/filestructure3.png" width="85%" height="85%">
 
