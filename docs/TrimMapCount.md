@@ -22,9 +22,10 @@ On the TACO cluster, the Fazal lab has folders named `rawdata`, `data`, and `pro
 and the `projects` folder is for all of your tables, figures, and log files (log files keep track 
 of the progress of your running projects).
 
-To begin, you should create a `rawdata` folder, `data` folder, and `project` folder all with the 
-same name. The name should have today's date and a title for your project separated by an underscore 
-(for example: `YYYYMMDD_MyProject`). Your file structure and file names should look something like this:
+To begin, you should create a folder inside your `rawdata` folder, `data` folder, and `project` folder 
+all with the same name. The name should have today's date and a title for your project separated by an 
+underscore (for example: `YYYYMMDD_MyProject`). Your file structure and file names should look something 
+like this:
 
 <img src="img/filestructure1.png" width="50%" height="50%">
 
