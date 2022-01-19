@@ -49,8 +49,12 @@ cd /absolute/path/to/destination
 ```
 Then press "Enter" and you will arrive at your destination!
 
+<img src="img/cd.png" width="30%" height="30%">
+
 Once you arrive at your destination, you can use the command `ls` to "List" the contents of your 
 current folder.
+
+<img src="img/ls.png" width="30%" height="30%">
 
 Now you know how to use `pwd` to print the address to your current folder, `cd` to change folders, 
 and `ls` to list the contents of your current folder. That's everything you need to know about 
