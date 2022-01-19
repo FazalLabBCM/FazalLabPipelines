@@ -7,7 +7,7 @@ to know!
 
 
 ## Sign In to the TACO Cluster
-Type this command, replacing `myuserid` with your user ID:
+Open your command prompt and type this command, replacing `myuserid` with your user ID:
 ```
 ssh myuserid@taco.grid.bcm.edu
 ```
@@ -49,12 +49,12 @@ cd /absolute/path/to/destination
 ```
 Then press "Enter" and you will arrive at your destination!
 
-<img src="img/cd.png" width="40%" height="40%">
+<img src="img/cd.png" width="43%" height="43%">
 
 Once you arrive at your destination, you can use the command `ls` to "List" the contents of your 
 current folder.
 
-<img src="img/ls.png" width="60%" height="60%">
+<img src="img/ls.png" width="61%" height="61%">
 
 Now you know how to use `pwd` to print the address to your current folder, `cd` to change folders, 
 and `ls` to list the contents of your current folder. That's everything you need to know about 
@@ -74,14 +74,14 @@ mkdir NewFolderName
 To copy a file, use the `cp` command with the absolute path to the file you want to copy and the 
 absolute path to where you want to copy it.
 ```
-cp /absolute/path/to/filetocopy.txt /absolute/path/to/destinationfolder
+cp /absolute/path/to/filetocopy.fastq.gz /absolute/path/to/destinationfolder
 ```
 
 To rename a file in your current folder, use the `mv` command. It stands for "Move", because you 
 are going to move the same file to a new name. Type the command as well as the old name and new 
 name of the file.
 ```
-mv oldfilename.txt newfilename.txt
+mv oldfilename.fastq.gz newfilename.fastq.gz
 ```
 
 Now you're all set to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines)!
