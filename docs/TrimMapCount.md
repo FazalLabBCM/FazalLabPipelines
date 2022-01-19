@@ -52,9 +52,9 @@ by underscores):
    1. Each file name starts with the capitalized and abbreviated cell location (such as "NLS" for nucleus).
    2. Each file name has an experimental condition (such as a time limit, a cell type, an antibiotic treatment, 
       or "none").
-   4. Each file name has the word "target" or "control".
-   5. Each file name has a number to indentify which target or control sample it represents.
-   6. Each file name ends in "R1.fastq" or "R2.fastq" (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files).
+   3. Each file name has the word "target" or "control".
+   4. Each file name has a number to indentify which target or control sample it represents.
+   5. Each file name ends in "R1.fastq" or "R2.fastq" (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files).
 
 For example, data from the nucleus with two target samples and one control sample, all treated with puromycin, 
 might be named like this:
@@ -91,7 +91,7 @@ Now you are ready to process your raw data!
 
 3. Copy and paste the code
    ```
-   sbatch /storage/fazal/projects/2022_TrimMapCount/TrimMapCount.sh rawdata data
+   sbatch /storage/fazal/projects/1_TrimMapCount/TrimMapCount.sh rawdata data
    ``` 
    in the command line.
    
