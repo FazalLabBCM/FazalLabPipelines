@@ -20,7 +20,7 @@ Now you're in!
 
 ## Navigate
 
-You may be wondering, "Now I'm in? In where? Where am I on the TACO cluster?" That's a great 
+You may be wondering, "Now I'm _in_? In _where_? Where am I on the TACO cluster?" That's a great 
 question! Here's a map:
 
 <img src="img/map.png" width="40%" height="40%">
@@ -67,11 +67,17 @@ computer.)
 mkdir NewFolderName
 ```
 
+To copy a file, use the `cp` command with the absolute path to the file you want to copy and the 
+absolute path to where you want to copy it.
 ```
-cp /absolute/path/to/filetocopy.txt /absolute/path/to/destination
+cp /absolute/path/to/filetocopy.txt /absolute/path/to/destinationfolder
 ```
 
+To rename a file in your current folder, use the `mv` command. It stands for "Move", because you 
+are going to move the same file to a new name. Type the command as well as the old name and new 
+name of the file.
 ```
 mv oldfilename.txt newfilename.txt
 ```
 
+Now you're all set to use the [FazalLabPipelines]()!
