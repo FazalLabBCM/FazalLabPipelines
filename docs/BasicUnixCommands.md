@@ -49,12 +49,12 @@ cd /absolute/path/to/destination
 ```
 Then press "Enter" and you will arrive at your destination!
 
-<img src="img/cd.png" width="30%" height="30%">
+<img src="img/cd.png" width="40%" height="40%">
 
 Once you arrive at your destination, you can use the command `ls` to "List" the contents of your 
 current folder.
 
-<img src="img/ls.png" width="30%" height="30%">
+<img src="img/ls.png" width="60%" height="60%">
 
 Now you know how to use `pwd` to print the address to your current folder, `cd` to change folders, 
 and `ls` to list the contents of your current folder. That's everything you need to know about 
@@ -84,4 +84,4 @@ name of the file.
 mv oldfilename.txt newfilename.txt
 ```
 
-Now you're all set to use the [FazalLabPipelines]()!
+Now you're all set to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines)!
