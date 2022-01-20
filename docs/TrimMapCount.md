@@ -93,7 +93,7 @@ Now you are ready to process your raw data!
 3. Copy and paste the code
    ```
    sbatch /storage/fazal/projects/1_TrimMapCount/TrimMapCount.sh rawdata data
-   ``` 
+   ```
    in the command line.
    
 4. Replace `rawdata` with the absolute path to the `rawdata` subfolder containing your `fastq` files.
