@@ -1,5 +1,15 @@
 # ProcessCounts
-Process [HTSeq](https://github.com/htseq/htseq) counts with [DESeq2](https://github.com/mikelove/DESeq2)
+The [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) pipeline 
+will use the output from [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) 
+to create simple tables and figures. These tables and figures help show the quality of your 
+raw data and the results of your experiment.
+
+
+## Setup
+
+
+## Execution
+
 
 
 ## Usage
