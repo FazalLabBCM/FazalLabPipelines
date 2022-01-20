@@ -10,9 +10,9 @@ raw data and the results of your experiment.
 
 
 Make sure that you have already run the [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) 
-pipeline on all of your raw data. For every `fastq` file that was mapped in your project's `rawdata` 
-folder, there should be a file ending in "_aligned.txt" and a file ending in "_trim_starLog.final.out" 
-in your project's corresponding `data` folder.
+pipeline on all of your raw data. If this has already been done, then, for every `fastq` file 
+in your project's `rawdata` folder, there should be a file ending in "_aligned.txt" and a file 
+ending in "_trim_starLog.final.out" in your project's corresponding `data` folder.
 
 
 
