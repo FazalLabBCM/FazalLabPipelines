@@ -27,14 +27,14 @@ all with the same name. The name should have today's date and a title for your p
 underscore (for example: `YYYYMMDD_MyProject`). Your file structure and file names should look something 
 like this:
 
-<img src="img/filestructure1.png" width="50%" height="50%">
+<img src="img/fazallab_filestructure1.png" width="50%" height="50%">
 
 Naming and arranging our folders this way will help keep the TACO cluster organized.
 
 Now, create folders inside the `rawdata` and `data` folders for each combination of cell location and 
 experimental condition in your experiment like this:
 
-<img src="img/filestructure2.png" width="63%" height="63%">
+<img src="img/fazallab_filestructure2.png" width="63%" height="63%">
 
 (This step isn't neccessary, but it can save a lot of time. Instead of processing only one sample at a 
 time, separating your data into subfolders makes it possible to process samples for every location and 
@@ -70,7 +70,7 @@ might be named like this:
 
 Now, copy these files into the appropriate `rawdata` folders. Your files should now be organized like this:
 
-<img src="img/filestructure3.png" width="85%" height="85%">
+<img src="img/fazallab_filestructure3.png" width="85%" height="85%">
 
 
 #### One Last Thing
