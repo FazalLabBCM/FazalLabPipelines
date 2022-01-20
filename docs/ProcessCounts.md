@@ -27,12 +27,13 @@ in your project's corresponding `data` folder.
    sbatch /storage/fazal/projects/2_ProcessCounts/ProcessCounts.sh data ProjectName
    ```
    in the command line.
-   
+
 3. Replace `data` with the absolute path to your project's `data` folder.
    - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData`.)
 
 4. Replace `ProjectName` with a name for your project (preferably the same name that you chose for your 
    project folders). This name will be added to the file name for each of your project's output files.
    - (In the example, the `ProjectName` would be "SequencingData".)
-   
+
 5. Press "Enter" to start the pipeline.
+
