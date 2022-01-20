@@ -45,7 +45,7 @@ this step!)
 #### Naming Raw Data Files
 
 > If you already have the `fastq` data files you would like to process, proceed with the instructions. If you 
-> still need to download the raw data, [click here](https://fazallabbcm.github.io/FazalLabPipelines/DownloadRawData])
+> still need to download the raw data, [click here](https://fazallabbcm.github.io/FazalLabPipelines/DownloadRawData)
 > before continuing.
 
 Make sure that each of your `fastq` files are named following these rules (in order and separated 
@@ -86,7 +86,7 @@ Now you are ready to process your raw data!
 ## Execution
 
 1. From the command line, navigate to your `project` folder.
-   - (In the example, the absolute path would be `/storage/fazal/projects/20220101_SequencingData`.)
+   - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.)
 
 2. Repeat steps 3 through 6 for each location and condition subfolder in your `rawdata` folder.
 
@@ -97,10 +97,10 @@ Now you are ready to process your raw data!
    in the command line.
    
 4. Replace `rawdata` with the absolute path to the `rawdata` subfolder containing your `fastq` files.
-   - (In the example, the absolute path would be `/storage/fazal/rawdata/20220101_SequencingData/NLS_puromycin`.)
+   - (In the example, the absolute path would be `/storage/fazal/rawdata/yourname/20220101_SequencingData/NLS_puromycin`.)
    
 5. Replace `data` with the absolute path to the `data` subfolder where your processed data files will be generated. 
-   - (In the example, the absolute path would be `/storage/fazal/data/20220101_SequencingData/NLS_puromycin`.)
+   - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData/NLS_puromycin`.)
    
 6. Press "Enter" to start the pipeline.
 
