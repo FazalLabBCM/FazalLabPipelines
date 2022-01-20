@@ -5,27 +5,34 @@ to create simple tables and figures. These tables and figures help show the qual
 raw data and the results of your experiment.
 
 
+
 ## Setup
+
+
+Make sure that you have already run the [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) 
+pipeline on all of your raw data. For every `fastq` file that was mapped in your project's `rawdata` 
+folder, there should be a file ending in "_aligned.txt" and a file ending in "_trim_starLog.final.out" 
+in your project's corresponding `data` folder.
+
 
 
 ## Execution
 
 
+1. From the command line, navigate to your `project` folder.
+   - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.)
 
-## Usage
-
-1. Make sure that `TrimMapCount.sh` has already been run on all of the data that you 
-would like to process. For every `fastq` file that was mapped in the project's `rawdata` 
-folder, there should be a file ending in "_aligned.txt" and a file ending in 
-"_trim_starLog.final.out" in the project's corresponding `data` folder.
-
-2. From the command line, navigate to the project directory where you would like the Slurm 
-`log` file and figures to be generated.
-
-3. Submit a Slurm job  with the code 
+2. Copy and paste the code
    ```
-   sbatch /storage/fazal/projects/2022_ProcessCounts/ProcessCounts.sh data prefix
-   ``` 
-   (where `data` is the absolute path to a directory containing the subdirectories that hold the `txt` 
-   and `out` files to be processed, and `prefix` is the file prefix to be used for all of the project's 
-   output files).
+   sbatch /storage/fazal/projects/2_ProcessCounts/ProcessCounts.sh data ProjectName
+   ```
+   in the command line.
+   
+3. Replace `data` with the absolute path to your project's `data` folder.
+   - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData`.)
+
+4. Replace `ProjectName` with a name for your project (preferably the same name that you chose for your 
+   project folders). This name will be added to the file name for each of your project's output files.
+   - (In the example, the `ProjectName` would be "SequencingData".)
+   
+5. Press "Enter" to start the pipeline.
