@@ -7,13 +7,11 @@ produces useful data files from your raw data.
 
 ## Setup
 
-
 > #### First things first:
 > To use the pipelines, you will need to know how to use a few simple commands on the 
 > [TACO cluster](http://taco-wiki.grid.bcm.edu/mediawiki/index.php/MHGCP_User_Quick_Start_Guide). 
 > If you don't know how to sign in to the cluster, navigate in and out of folders, or make new folders, 
 > visit this link: [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
-
 
 #### Making Project Folders
 
@@ -40,7 +38,6 @@ experimental condition in your experiment like this:
 time, separating your data into subfolders makes it possible to process samples for every location and 
 condition at the same time. Since each sample takes about 2 hours to process, you won't want to skip 
 this step!)
-
 
 #### Naming Raw Data Files
 
@@ -72,7 +69,6 @@ Now, copy these files into the appropriate `rawdata` folders. Your files should 
 
 <img src="img/fazallab_filestructure3.png" width="85%" height="85%">
 
-
 #### One Last Thing
 
 Finally, make sure there is a folder named `star` inside `/storage/fazal/genome/human/2021` and that it 
@@ -81,6 +77,7 @@ exists and has files in it, but visit [this page](https://fazallabbcm.github.io/
 if not.
 
 Now you are ready to process your raw data!
+
 
 
 ## Execution
