@@ -86,21 +86,21 @@ Now you are ready to process your raw data!
 ## Execution
 
 1. From the command line, navigate to your `project` folder.
-   - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.) </br>
+   - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.)
 
-2. Repeat steps 3 through 6 for each location and condition subfolder in your `rawdata` folder. </br>
+2. Repeat steps 3 through 6 for each location and condition subfolder in your `rawdata` folder.
 
 3. Copy and paste the code
    ```
    sbatch /storage/fazal/projects/1_TrimMapCount/TrimMapCount.sh rawdata data
    ```
-   in the command line. </br>
+   in the command line.
 
 4. Replace `rawdata` with the absolute path to the `rawdata` subfolder containing your `fastq` files.
-   - (In the example, the absolute path would be `/storage/fazal/rawdata/yourname/20220101_SequencingData/NLS_puromycin`.) </br>
+   - (In the example, the absolute path would be `/storage/fazal/rawdata/yourname/20220101_SequencingData/NLS_puromycin`.)
 
 5. Replace `data` with the absolute path to the `data` subfolder where your processed data files will be generated.
-   - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData/NLS_puromycin`.) </br>
+   - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData/NLS_puromycin`.)
 
 6. Press "Enter" to start the pipeline.
 
