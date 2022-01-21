@@ -8,7 +8,6 @@ viewed in interactive tools such as the [UCSC Genome Browser](https://genome.ucs
 
 ## Setup
 
-
 Make sure that you have already run the 
 [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) pipeline on all of your 
 raw data. If this has already been done, then, for every `fastq` file in your project’s rawdata 
@@ -18,7 +17,6 @@ corresponding data folder. These `bam` files will be used to generate the genome
 
 
 # Execution
-
 
 1. From the command line, navigate to your `project` folder.
    - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.)
