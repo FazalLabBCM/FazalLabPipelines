@@ -1,6 +1,6 @@
 # Download Raw Data
 
-1. Visit (https://sra-explorer.info/)[https://sra-explorer.info/].
+1. Visit [https://sra-explorer.info/](https://sra-explorer.info/).
 2. Search the accession number for the experiment files you want to download.
    - (The accession number for the APEX-Seq data is PRJNA476786)
 3. Select the files you would like to download.
