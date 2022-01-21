@@ -1,21 +1,35 @@
 # BamToBigWig
-Generate BigWig files for viewing genome tracks using tools such as the 
-[UCSC Genome Browser](https://genome.ucsc.edu/)
+The [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipeline uses the 
+output from [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) to create 
+genome tracks for your data. The genome tracks will be stored in `bw` files can be uploaded and 
+viewed in interactive tools such as the [UCSC Genome Browser](https://genome.ucsc.edu/).
 
 
-## Usage
 
-1. Make sure that `TrimMapCount.sh` has already been run on all of the data that you 
-would like to process. For every `fastq` file that was mapped in the project's `rawdata` 
-folder, there should be a file ending in "_trim_starAligned_sortedByCoord.out.bam" in the 
-project's corresponding `data` folder.
+## Setup
 
-2. From the command line, navigate to the project directory where you would like the Slurm 
-`log` file to be generated.
 
-3. Submit a Slurm job  with the code 
+Make sure that you have already run the 
+[TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) pipeline on all of your 
+raw data. If this has already been done, then, for every `fastq` file in your project’s rawdata 
+folder, there should be a file ending in “_trim_starAligned_sortedByCoord.out.bam” in your project’s 
+corresponding data folder. These `bam` files will be used to generate the genome tracks.
+
+
+
+# Execution
+
+
+1. From the command line, navigate to your `project` folder.
+   - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.)
+
+2. Copy and paste the code
    ```
-   sbatch /storage/fazal/projects/2022_BamToBigWig/BamToBigWig.sh data
-   ``` 
-   (where `data` is the absolute path to a directory containing the subdirectories that hold the `bam` 
-   files to be processed).
+   sbatch /storage/fazal/projects/3_BamToBigWig/BamToBigWig.sh data
+   ```
+   in the command line.
+
+3. Replace `data` with the absolute path to your project's `data` folder.
+   - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData`.)
+
+4. Press "Enter" to start the pipeline.
