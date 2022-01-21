@@ -1,5 +1,4 @@
 # Introduction to Using the Command Line
-
 Welcome! This page will give you a quick introduction to using the TACO cluster. When you 
 sign in to the TACO cluster, everything is controlled by the command line, which is where 
 you type commands for the computer to execute. Here are a few simple commands you will want 
@@ -7,6 +6,7 @@ to know!
 
 
 ## Sign In to the TACO Cluster
+
 Open your command prompt and type this command, replacing `myuserid` with your user ID:
 ```
 ssh myuserid@taco.grid.bcm.edu
