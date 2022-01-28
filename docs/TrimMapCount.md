@@ -82,7 +82,8 @@ Now you are ready to process your raw data!
 
 ## Execution
 
-1. From the command line, navigate to your `project` folder.
+1. From the command line, navigate to your `project` folder. This is where the log file will be generated, which 
+   will keep track of your project's progress as the pipeline runs.
    - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.)
 
 2. Repeat steps 3 through 6 for each location and condition subfolder in your `rawdata` folder.
@@ -100,4 +101,15 @@ Now you are ready to process your raw data!
    - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData/NLS_puromycin`.)
 
 6. Press "Enter" to start the pipeline.
+
+
+
+## What Next?
+
+You can check the log file in your `project` folder to see the progress of your job as it runs.
+
+Once it has finished, you will have all of the data files necessary for the 
+[ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) and 
+[BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipelines. Head back to 
+the [main page](https://fazallabbcm.github.io/FazalLabPipelines/) to keep going!
 
