@@ -108,8 +108,9 @@ Now you are ready to process your raw data!
 
 You can check the log file in your `project` folder to see the progress of your job as it runs.
 
-Once it has finished, you will have all of the data files necessary for the 
+Once [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) has finished, 
+you will have all of the data files necessary for the 
 [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) and 
-[BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipelines. Head back to 
-the [main page](https://fazallabbcm.github.io/FazalLabPipelines/) to keep going!
+[BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipelines. Head back 
+to the [main page](https://fazallabbcm.github.io/FazalLabPipelines/) to keep going!
 
