@@ -18,7 +18,9 @@ types of output files will be used to generate tables and figures.
 
 ## Execution
 
-1. From the command line, navigate to your `project` folder.
+1. From the command line, navigate to your `project` folder. This is where your data files, figures, and 
+   Analysis Summary document will be generated. This is also where the log file will be generated, which 
+   will keep track of your project's progress as the pipeline runs.
    - (In the example, the absolute path would be `/storage/fazal/projects/yourname/20220101_SequencingData`.)
 
 2. Copy and paste the code
