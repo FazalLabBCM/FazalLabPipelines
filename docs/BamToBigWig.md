@@ -32,3 +32,13 @@ corresponding data folder. These `bam` files will be used to generate the genome
    - (In the example, the absolute path would be `/storage/fazal/data/yourname/20220101_SequencingData`.)
 
 4. Press "Enter" to start the pipeline.
+
+
+
+## What Next?
+
+You can check the log file in your `project` folder to see the progress of your job as it runs.
+
+Once [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) has finished...
+
+
