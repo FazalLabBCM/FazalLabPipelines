@@ -41,5 +41,6 @@ types of output files will be used to generate tables and figures.
 
 ## What Next?
 
+You can check the log file in your `project` folder to see the progress of your job as it runs.
 
-[BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig)
+Once [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) has finished...
