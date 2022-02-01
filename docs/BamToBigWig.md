@@ -40,5 +40,3 @@ corresponding data folder. These `bam` files will be used to generate the genome
 You can check the log file in your `project` folder to see the progress of your job as it runs.
 
 Once [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) has finished...
-
-
