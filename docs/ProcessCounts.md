@@ -38,3 +38,8 @@ types of output files will be used to generate tables and figures.
 
 5. Press "Enter" to start the pipeline.
 
+
+## What Next?
+
+
+[BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig)
