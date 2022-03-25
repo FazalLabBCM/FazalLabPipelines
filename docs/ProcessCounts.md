@@ -9,8 +9,8 @@ raw data and the results of your experiment.
 ## Setup
 
 Make sure that you have already run the [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) 
-pipeline on all of your raw data. If this has already been done, then, for every `fastq` file 
-in your project's `rawdata` folder, there should be a file ending in "_aligned.txt" and a file 
+pipeline on all of your raw data. If this has already been done, then, for every target and control 
+sample in your project's `rawdata` folder, there should be a file ending in "_aligned.txt" and a file 
 ending in "_trim_starLog.final.out" in your project's corresponding `data` folder. These two 
 types of output files will be used to generate tables and figures.
 
