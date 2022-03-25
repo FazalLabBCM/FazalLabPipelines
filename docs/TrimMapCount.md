@@ -71,8 +71,8 @@ Now, copy these files into the appropriate `rawdata` folders. Your files should 
 
 #### One Last Thing
 
-Finally, make sure there is a folder named `star` inside `/storage/fazal/genome/human/2021` and that it 
-is not empty. This folder is important for your data to align to the genome. It likely already 
+Finally, make sure there is a folder named `star` inside `/storage/fazal/genome/human/GRCh38.104` and that
+it is not empty. This folder is important for your data to align to the genome. It likely already 
 exists and has files in it, but visit [this page](https://fazallabbcm.github.io/FazalLabPipelines/GenerateGenome) 
 if not.
 
