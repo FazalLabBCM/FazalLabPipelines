@@ -7,7 +7,7 @@
 
 1. Visit [NCBI's SRA Run Selecter](https://www.ncbi.nlm.nih.gov/Traces/study/)
 2. Search the accession number for your study
-   - (The accession number for the APEX-Seq data is PRJNA476786)
+   - (The accession number for the APEX-seq data is PRJNA476786)
 3. Sign in to the TACO cluster and navigate to your `rawdata` folder from the command line
 4. Activate your conda environment using the code
    ```
@@ -23,7 +23,7 @@
 ## Option 2
 1. Visit [https://sra-explorer.info/](https://sra-explorer.info/)
 2. Search the accession number for the experiment files you want to download
-   - (The accession number for the APEX-Seq data is PRJNA476786)
+   - (The accession number for the APEX-seq data is PRJNA476786)
 3. Select the files you would like to download
 4. Click the blue button that says "Add # to collection"
 5. Click the blue button with the shopping cart icon that says "# saved datasets"
