@@ -24,7 +24,7 @@ corresponding data folder. These `bam` files will be used to generate the genome
 
 2. Copy and paste the code
    ```
-   sbatch /storage/fazal/projects/3_BamToBigWig/BamToBigWig.sh data
+   sbatch /storage/fazal/pipelines/BamToBigWig/scripts/BamToBigWig.sh data
    ```
    in the command line.
 
