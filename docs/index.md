@@ -1,6 +1,6 @@
-# Pipelines to Process Your Raw Data
-Congratulations! You have just collected raw data from an experiment, and now you need 
-to process it! This page has instructions for when and how to use each of the Fazal Lab 
+# Pipelines to Process Your RNA-Seq Data
+Congratulations! You have just collected RNA sequencing data from an experiment, and now you 
+need to process it! This page has instructions for when and how to use each of the Fazal Lab 
 pipelines.
 
 
