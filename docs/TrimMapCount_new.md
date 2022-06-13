@@ -2,13 +2,8 @@
 
 ## Setup
 
-Download repository
-
-Download genome files
-
-Create conda virtual environment
-
-Edit CONFIG file
+If you do not have access to Baylor College of Medicine's MHGCP cluster, follow this 
+link to [download and setup the pipeline]().
 
 Rename raw data files
 
