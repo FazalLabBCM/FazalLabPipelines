@@ -4,7 +4,7 @@ The steps and software packages used in these pipelines are not unique to those 
 RNA-Seq workflows, but here we have put them together into user-friendly pipelines. We hope 
 you will benefit from their simplicity just as we do in the Fazal Lab!
 
-<img src="img/pipelines_flowchart.png" width="80%" height="80%">
+<img src="img/pipelines_flowchart.png" width="30%" height="30%">
 
 ## Data Alignment
 Start by aligning your RNA-Seq data to the genome with the 
