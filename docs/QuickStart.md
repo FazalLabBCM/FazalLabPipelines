@@ -11,7 +11,7 @@ pipelines.
 > visit this link: [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
 
 ## Begin Here
-The raw sequencing data you collected is in `fastq` format (the file names end in ".fastq"). It 
+The raw sequencing data you collected is in FASTQ format (the file names end in ".fastq"). It 
 may also be compressed or zipped to save space (if so, the file names will end in ".fastq.gz"). 
 Your data isn't very useful or even readable this way, but it contains the results of your 
 experiment! Your goal is to process this raw data with the provided pipelines in order to generate 
@@ -29,6 +29,6 @@ useful output files and figures. Follow the steps and links below to begin!
 
 3. Then, use the pipeline [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig). 
    This pipeline uses the output from TrimMapCount to create genome tracks for your data. The genome 
-   tracks will be stored in `bw` files that can be uploaded and viewed in interactive tools such as 
+   tracks will be stored in BigWig files that can be uploaded and viewed in interactive tools such as 
    the [UCSC Genome Browser](https://genome.ucsc.edu/).
    <img src="img/pipeline3.png" width="80%" height="80%">
