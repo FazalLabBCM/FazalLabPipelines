@@ -4,7 +4,8 @@
 ## Setup
 
 If you are not a member of the Fazal Lab and don't have access to Baylor College 
-of Medicine's MHGCP cluster, follow this link to [download and setup the pipeline]() 
+of Medicine's MHGCP cluster, follow this link to 
+[download and setup the pipeline](https://fazallabbcm.github.io/FazalLabPipelines/ExternalUserInstructions/TrimMapCountSetup) 
 on your local computing environment.
 
 
@@ -24,8 +25,8 @@ by underscores):
    5. "R1.fastq" or "R2.fastq" (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
 
 
-For example, single-end (R1 only) APEX-seq data targeting the cytosol (where APEX enzyme is 
-attached to NES protein) and treated with puromycin might be named like this:
+For example, single-end sequencing data (R1 only) from cytosol APEX cells (where the APEX2 enzyme 
+is attached to the NES protein) that have been treated with puromycin might be named like this:
    ```
    Cytosol-NES_puromycin_target_1_R1.fastq
    Cytosol-NES_puromycin_target_2_R1.fastq
@@ -37,8 +38,8 @@ attached to NES protein) and treated with puromycin might be named like this:
 #### Sorting raw data files
 
 To save lots of time, separate your FASTQ files into subfolders for each unique combination 
-of subcellular location and experimental condition (like the picture below). Then, run the 
-TrimMapCount pipeline for each subfolder at the same time.
+of subcellular location and experimental condition (like the picture below). This will allow 
+you to run the TrimMapCount pipeline for each subfolder of raw data at the same time.
 
 <img src="img/filestructure_example.png" width="60%" height="60%">
 
