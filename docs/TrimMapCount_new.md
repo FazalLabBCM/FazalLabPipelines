@@ -40,7 +40,7 @@ To save lots of time, separate your FASTQ files into subfolders for each unique 
 of subcellular location and experimental condition (like the picture below). Then, run the 
 TrimMapCount pipeline for each subfolder at the same time.
 
-<img src="img/FileStructureExample.png" width="60%" height="60%">
+<img src="img/filestructure_example.png" width="60%" height="60%">
 
 
 ## Running the Pipeline
