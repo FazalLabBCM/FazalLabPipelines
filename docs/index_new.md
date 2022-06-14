@@ -20,4 +20,4 @@ to obtain enrichment values and an analysis summary full of quality-control figu
 ## Data Visualization
 Finally, visualize your data with the [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) 
 pipeline. This pipeline will convert your BAM files to normalized, united, and averaged BigWig files, which can 
-be viewed using interactive tools such as the [UCSC Genome Browser](https://genome.ucsc.edu/)
+be viewed using interactive tools such as the [UCSC Genome Browser](https://genome.ucsc.edu/).
