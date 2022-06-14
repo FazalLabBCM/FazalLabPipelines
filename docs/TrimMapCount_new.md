@@ -9,20 +9,18 @@ of Medicine's MHGCP cluster, follow this link to
 on your local computing environment.
 
 
-#### Naming raw data files
+### Naming raw data files
 
 Rename your raw FASTQ files so that each file name has these 5 things (in order and separated 
 by underscores):
-   1. Subcellular location (can't contain an underscore)
+   1. **Subcellular location** (can't contain an underscore)
       * Where APEX is targeted and/or which protein the enzyme is fused to
-      * Example: "Cytosol-NES"
-   2. Experimental condition or "none" (can't contain an underscore)
+   2. **Experimental condition or "none"** (can't contain an underscore)
       * Could be a time limit, cell type, antibiotic treatment, etc.
-      * Example: "puromycin"
-   3. "target" or "control" (first letter can be capitalized)
+   3. **"target" or "control"** (first letter can be capitalized)
       * Whether H<sub>2</sub>O<sub>2</sub> was added (target) or not (control)
-   4. A number to indicate which target or control sample (one digit 0-9)
-   5. "R1.fastq" or "R2.fastq" (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
+   4. **A number to indicate which target or control sample** (one digit 0-9)
+   5. **"R1.fastq" or "R2.fastq"** (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
 
 
 For example, single-end sequencing data (R1 only) from cytosol APEX cells (where the APEX2 enzyme 
@@ -35,7 +33,7 @@ is attached to the NES protein) that have been treated with puromycin might be n
    ```
 
 
-#### Sorting raw data files
+### Sorting raw data files
 
 To save lots of time, separate your FASTQ files into subfolders for each unique combination 
 of subcellular location and experimental condition (like the picture below). This will allow 
@@ -54,7 +52,7 @@ you to run the TrimMapCount pipeline for each subfolder of raw data at the same 
    
 2. Repeat steps 3 and 4 for each subfolder in your experiment's raw data folder.
    
-3. Run the following code (replacing the file paths with the correct paths for your experiment's 
+3. Run the following code (replacing the file paths with the paths to your experiment's 
    raw data and processed data subfolders):
    ```
    TrimMapCount -r /path/to/rawdata -d /path/to/data
