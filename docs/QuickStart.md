@@ -27,8 +27,8 @@ useful output files and figures. Follow the steps and links below to begin!
    tables and figures help show the quality of your raw data and the results of your experiment.
    <img src="img/pipeline2.png" width="80%" height="80%">
 
-3. Then, use the pipeline [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig). 
-   This pipeline uses the output from TrimMapCount to create genome tracks for your data. The genome 
-   tracks will be stored in BigWig files that can be uploaded and viewed in interactive tools such as 
-   the [UCSC Genome Browser](https://genome.ucsc.edu/).
+3. Finally, use the [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig). 
+   pipeline. This pipeline uses the output from TrimMapCount to create genome tracks for your data. 
+   The genome tracks will be stored in BigWig files that can be uploaded and viewed in interactive 
+   tools such as the [UCSC Genome Browser](https://genome.ucsc.edu/).
    <img src="img/pipeline3.png" width="80%" height="80%">
