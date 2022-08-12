@@ -73,14 +73,7 @@ Now, copy these files into the appropriate `rawdata` folders. Your files should 
 
 <img src="img/filestructure_files.png" width="85%" height="85%">
 
-
-### Sorting raw data files
-
-To save lots of time, separate your FASTQ files into subfolders for each unique combination 
-of targeted location/protein and experimental condition (like the picture below). This will allow 
-you to run the TrimMapCount pipeline for each subfolder of raw data simultaneously.
-
-<img src="img/filestructure_example.png" width="80%" height="80%">
+Now you are ready!
 
 
 ## Running the Pipeline
