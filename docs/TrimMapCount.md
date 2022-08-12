@@ -1,16 +1,44 @@
-# Data Alignment for RNA-Seq Experiments
+# TrimMapCount: Data Alignment for RNA-Seq Experiments
 
-The TrimMapCount pipeline is designed to trim, map, and count FASTQ reads with 
-[icSHAPE](https://github.com/qczhang/icSHAPE), [STAR](https://github.com/alexdobin/STAR), 
-and [HTSeq](https://github.com/htseq/htseq).
+The [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) pipeline will map 
+your RNA sequences to a reference genome and count how many reads map to each gene. This process 
+produces useful data files from your raw data.
 
 
 ## Setup
 
-If you are not a member of the Fazal Lab and don't have access to Baylor College 
-of Medicine's MHGCP cluster, follow this link to 
-[download and setup the pipeline](https://fazallabbcm.github.io/TrimMapCount/DownloadAndSetup) 
-on your local computing environment.
+> #### First things first:
+> To use the pipelines, you will need to know how to use a few simple commands on the 
+> [TACO cluster](http://taco-wiki.grid.bcm.edu/mediawiki/index.php/MHGCP_User_Quick_Start_Guide). 
+> If you don't know how to sign in to the cluster, navigate in and out of folders, make new folders, 
+> and rename files, start with this short tutorial: 
+> [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
+
+#### Making Project Folders
+
+On the TACO cluster, the Fazal lab has folders named `rawdata`, `data`, and `projects`. The 
+`rawdata` folder is for your raw data files, the `data` folder is for your processed data files, 
+and the `projects` folder is for all of your output tables and figures.
+
+To begin, you should create a folder inside your `rawdata` folder, `data` folder, and `project` folder 
+all with the same name. The name should have today's date and a title for your project separated by an 
+underscore (for example: `YYYYMMDD_MyProject`). Your file structure and file names should look something 
+like this:
+
+<img src="img/filestructure_experimentfolders.png" width="50%" height="50%">
+
+Naming and arranging our folders this way will help keep the TACO cluster organized.
+
+Now, create folders inside the `rawdata` and `data` folders for each combination of targeted location and 
+experimental condition in your experiment like this:
+
+<img src="img/filestructure_subfolders.png" width="60%" height="60%">
+
+(This step isn't neccessary, but it can save a lot of time. Instead of processing only one sample at a 
+time, separating your data into subfolders makes it possible to process samples for every location and 
+condition at the same time. Since each sample takes about 2 hours to process, you won't want to skip 
+this step!)
+
 
 ### Naming raw data files
 
@@ -20,9 +48,6 @@ by underscores):
    1. **Targeted location/protein** (can't contain an underscore)
       * For an APEX-seq experiment, subcellular location where APEX is targeted and/or which protein the 
         enzyme is fused to
-        > Note:
-        > This pipeline is not exclusive to APEX-seq experiments. For a generic RNA-Seq experiment, 
-        > replace the targeted location/protein with an experimental condition (see next list item).
    2. **Experimental condition** (can't contain an underscore)
       * Could be a time limit, cell type, antibiotic treatment, etc., or "basal" for no condition
         > Note:
@@ -30,15 +55,24 @@ by underscores):
         > with a hyphen or period like this: `CellLine-TargetedProtein_DrugTreatment.TimeLimit_target_1.R1.fastq`. 
    3. **"target" or "control"** (first letter can be capitalized)
       * For an APEX-seq experiment, whether the targeted location was labeled by adding H<sub>2</sub>O<sub>2</sub> (target) or not (control)
-        > Note:
-        > The label "target" or "control" could mean something different depending on your experiment. If your  
-        > file was named `HEK293.PloyA_puromycin.1min_target_1.R1.fastq`, the "target" could be treated with puromycin 
-        > for 1 minute and the "control" not treated with puromycin. Alternatively, the "target" could be 
-        > polyadenylated RNA with non polyadenylated RNA as the "control", or the "target" could be HEK293 
-        > cells with HepG2 cells as the "control". Decide what "target" and "control" mean for your experiment, 
-        > and write it down.
    4. **A number to indicate which target or control sample** (one digit 0-9)
    5. **"R1.fastq" or "R2.fastq"** (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
+
+For example, data from the cytosol with two target samples and one control sample, all treated with puromycin, 
+might be named like this:
+   ```
+   Cytosol-NES_puromycin_target_1_R1.fastq.gz
+   Cytosol-NES_puromycin_target_1_R2.fastq.gz
+   Cytosol-NES_puromycin_target_2_R1.fastq.gz
+   Cytosol-NES_puromycin_target_2_R2.fastq.gz
+   Cytosol-NES_puromycin_control_1_R1.fastq.gz
+   Cytosol-NES_puromycin_control_1_R2.fastq.gz
+   ```
+
+Now, copy these files into the appropriate `rawdata` folders. Your files should now be organized like this:
+
+<img src="img/filestructure_files.png" width="85%" height="85%">
+
 
 ### Sorting raw data files
 
@@ -73,9 +107,8 @@ you to run the TrimMapCount pipeline for each subfolder of raw data simultaneous
 
 You can check the log file in your processed data folder to see the progress of your job as it runs.
 
-If you encounter any errors, see our 
-[troubleshooting](https://fazallabbcm.github.io/TrimMapCount/Troubleshooting) page for help.
-
-Once TrimMapCount has finished, you will have all of the data files necessary for the 
-[ProcessCounts](https://fazallabbcm.github.io/ProcessCounts) and 
-[BamToBigWig](https://fazallabbcm.github.io/BamToBigWig) pipelines.
+Once [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) has finished, 
+you will have all of the data files necessary for the 
+[ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) and 
+[BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipelines. Head back 
+to the [main page](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart) to keep going!
