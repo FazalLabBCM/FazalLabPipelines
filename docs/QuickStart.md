@@ -7,8 +7,9 @@ pipelines.
 > #### First things first:
 > To use the pipelines, you will need to know how to use a few simple commands on the 
 > [TACO cluster](http://taco-wiki.grid.bcm.edu/mediawiki/index.php/MHGCP_User_Quick_Start_Guide). 
-> If you don't know how to sign in to the cluster, navigate in and out of folders, or make new folders, 
-> visit this link: [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
+> If you don't know how to sign in to the cluster, navigate in and out of folders, make new folders, 
+> and rename files, start with this short tutorial: 
+> [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
 
 ## Begin Here
 The raw sequencing data you collected is in FASTQ format (the file names end in ".fastq"). It 
