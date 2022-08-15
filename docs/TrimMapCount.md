@@ -42,11 +42,14 @@ this step!)
 
 ### Naming raw data files
 
+In order for the pipeline to understand your experiment and what data is in each file, you have to name 
+your raw data files a certain way that the computer will recognize.
+
 Rename your raw FASTQ files so that each file name has these 5 things (in order and separated 
 by underscores):
 <img src="img/filename_example.png" width="60%" height="60%">
    1. **Targeted location/protein** (can't contain an underscore)
-      * For an APEX-seq experiment, subcellular location where APEX is targeted and/or which protein the 
+      * For an APEX-seq experiment, the subcellular location where APEX is targeted and/or which protein the 
         enzyme is fused to
    2. **Experimental condition** (can't contain an underscore)
       * Could be a time limit, cell type, antibiotic treatment, etc., or "basal" for no condition
@@ -54,7 +57,8 @@ by underscores):
         > Need to label your data files with more experimental conditions? Just separate the extra conditions 
         > with a hyphen or period like this: `CellLine-TargetedProtein_DrugTreatment.TimeLimit_target_1.R1.fastq`. 
    3. **"target" or "control"** (first letter can be capitalized)
-      * For an APEX-seq experiment, whether the targeted location was labeled by adding H<sub>2</sub>O<sub>2</sub> (target) or not (control)
+      * For an APEX-seq experiment, whether the targeted location was labeled by adding H<sub>2</sub>O<sub>2</sub> 
+        (target) or not (control)
    4. **A number to indicate which target or control sample** (one digit 0-9)
    5. **"R1.fastq" or "R2.fastq"** (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
 
@@ -69,7 +73,7 @@ might be named like this:
    Cytosol-NES_puromycin_control_1_R2.fastq.gz
    ```
 
-Now, copy these files into the appropriate `rawdata` folders. Your files should now be organized like this:
+Now, move these files into the appropriate `rawdata` folders. Your files should now be organized like this:
 
 <img src="img/filestructure_files.png" width="85%" height="85%">
 
@@ -78,8 +82,8 @@ Now you are ready!
 
 ## Running the Pipeline
 
-1. From the command line, add the TrimMapCount scripts folder to your PATH environment variable. 
-   For Fazal Lab members, this can be done with the following code:
+1. Copy and paste this code in the command line and press "Enter". (It will tell the computer where to find 
+   the code for the pipeline.) 
    ```
    export PATH=/storage/fazal/pipelines/TrimMapCount/scripts:"${PATH}"
    ```
@@ -89,7 +93,8 @@ Now you are ready!
 3. Run the following code (replacing the file paths with the paths to your experiment's 
    raw data and processed data subfolders):
    ```
-   TrimMapCount -r /path/to/rawdata/location_condition -d /path/to/data/location_condition
+   TrimMapCount -r /storage/fazal/rawdata/yourname/yourexperiment/location_condition \
+                -d /storage/fazal/data/yourname/yourexperiment/location_condition
    ```
 
 4. Make sure that the raw data and processed data file paths are correct. Then enter "y" to 
