@@ -98,7 +98,7 @@ The pipelines need to be run from the command line, so it is important to know t
 above. However, if you are anything like me, I bet you would feel more comfortable using a file viewer 
 app to create, rename, copy, move, and delete your files and folders!
 
-## Download File Viewer
+## Download an SSH Client File Viewer
 
 ### Windows Computers
 [WinSCP](https://winscp.net/eng/index.php) is an app like Windows file explorer that lets you view files 
