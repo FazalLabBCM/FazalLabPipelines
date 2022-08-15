@@ -25,7 +25,7 @@ all with the same name. The name should have today's date and a title for your p
 underscore (for example: `YYYYMMDD_MyProject`). Your file structure and file names should look something 
 like this:
 
-<img src="img/filestructure_experimentfolders.png" width="50%" height="50%">
+<img src="img/filestructure_experimentfolders.png" width="44%" height="44%">
 
 Naming and arranging our folders this way will help keep the TACO cluster organized.
 
@@ -75,7 +75,7 @@ might be named like this:
 
 Now, move these files into the appropriate `rawdata` folders. Your files should now be organized like this:
 
-<img src="img/filestructure_files.png" width="85%" height="85%">
+<img src="img/filestructure_files.png" width="90%" height="90%">
 
 Now you are ready!
 
