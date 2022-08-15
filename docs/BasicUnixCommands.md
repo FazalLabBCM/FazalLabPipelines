@@ -7,13 +7,18 @@ to know!
 
 ## Sign In to the TACO Cluster
 
-Open your command prompt and type this command, replacing `myuserid` with your user ID:
+Open your command prompt (Windows) or terminal (Apple) application and type this command, 
+replacing `myuserid` with your user ID:
 ```
 ssh myuserid@taco.grid.bcm.edu
 ```
 Then press "Enter".
 
-When prompted, type your password and press "Enter".
+If this is your first time signing in from the command line, you will see a message saying 
+that "The authenticity of host 'taco.grid.bcm.edu (10.66.4.154)' can't be established." This 
+is normal, and it only happens the first time. Type `yes` and hit "Enter".
+
+When prompted, type your password (it will be hidden as you type) and press "Enter".
 
 Now you're in!
 
@@ -85,3 +90,45 @@ mv oldfilename.fastq.gz newfilename.fastq.gz
 ```
 
 Now you're all set to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart)!
+
+
+# Still feeling a little bit uncomfortable?
+
+The pipelines need to be run from the command line, so it is important to know the commands described 
+above. However, if you are anything like me, I bet you would feel more comfortable using a file viewer 
+app to create, rename, copy, move, and delete your files and folders!
+
+## Download File Viewer
+
+### Windows Computers
+[WinSCP](https://winscp.net/eng/index.php) is an app like Windows file explorer that lets you view files 
+on your local computer and a remote computer (such as the TACO cluster) at the same time. Click here to 
+[download WinSCP](https://winscp.net/download/WinSCP-5.21.2-Setup.exe). When the download finishes, open 
+the installer and accept the defaults. Open the WinSCP application once it is installed.
+
+### Apple Computers
+[FileZilla](https://filezilla-project.org/) is an app like Apple finder that lets you view files on your 
+local computer and a remote computer (such as the TACO cluster) as the same time. Click here to 
+[download FileZilla](https://dl4.cdn.filezilla-project.org/client/FileZilla_3.60.2_macosx-x86.app.tar.bz2?h=hxy6tuT1HHojwfvxOQH1aA&x=1660597873).
+When the download finishes, open the FileZilla application.
+
+## Sign In to the TACO Cluster from Your File Viewer
+
+Use this information to sign in to the TACO cluster:
+```
+Host:     taco.grid.bcm.edu
+Username: (your BCM user ID)
+Password: (your BCM password)
+Port:     22
+```
+
+The first time you sign in with the app, you will see the same message saying that "The authenticity of 
+host 'taco.grid.bcm.edu (10.66.4.154)' can't be established." Choose "yes" to accept this message.
+
+Now you should see the files from your local computer on the left of your screen and the files from the 
+TACO cluster on the right of your screen. Right click (Windows) or Ctrl click (Apple) for the option to 
+create, open, copy, rename, or delete a file or folder. Drag a file or folder to move it. To download 
+(from the cluster to your computer) or upload (from your computer to the cluster), simply drag files or 
+folders from one side to the other. Pretty intuitive!
+
+Hopefully now you are feeling ready to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart)!
