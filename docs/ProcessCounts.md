@@ -1,16 +1,12 @@
-# Data Analysis for RNA-Seq Experiments
+# ProcessCounts: Data Analysis for RNA-Seq Experiments
 
-The ProcessCounts pipeline is designed to process FASTQ read counts with 
-[DESeq2](https://github.com/mikelove/DESeq2) to obtain enrichment values and an analysis 
-summary full of quality-control figures.
+The [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) pipeline will use 
+the output from [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) to create 
+simple tables and figures. These tables and figures help show the quality of your raw data and the 
+results of your experiment.
 
 
 ## Setup
-
-If you are not a member of the Fazal Lab and don't have access to Baylor College 
-of Medicine's MHGCP cluster, follow this link to 
-[download and setup the pipeline](https://fazallabbcm.github.io/ProcessCounts/DownloadAndSetup) 
-on your local computing environment.
 
 Make sure you run the [TrimMapCount](https://fazallabbcm.github.io/TrimMapCount) pipeline first.
 Once it has finished successfully, you are ready to run the ProcessCounts pipeline.
@@ -18,15 +14,18 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
 
 ## Running the Pipeline
 
-1. From the command line, add the ProcessCounts scripts folder to your PATH environment variable. 
-   For Fazal Lab members, this can be done with the following code:
+1. Copy and paste this code in the command line and press "Enter". (It will tell the computer where to find 
+   the code for the pipeline.) 
    ```
    export PATH=/storage/fazal/pipelines/ProcessCounts/scripts:"${PATH}"
    ```
    
-2. Run the following code:
+2. Run the following code (replacing the file paths with the paths to your experiment's 
+   processed data and output folders):
    ```
-   ProcessCounts -d /path/to/data -o /path/to/output -n ProjectName
+   ProcessCounts -d /storage/fazal/data/yourname/yourexperiment \
+                 -o /storage/fazal/projects/yourname/yourexperiment \
+                 -n ProjectName
    ```
    > **Note:** Only run ProcessCounts once. This pipeline analyzes the data from every condition 
    > in your experiment at the same time. If your aligned data files are separated into subfolders, 
@@ -38,9 +37,6 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
 ## What next?
 
 You can check the log file in your output folder to see the progress of your job as it runs.
-
-If you encounter any errors, see our 
-[troubleshooting](https://fazallabbcm.github.io/ProcessCounts/Troubleshooting) page for help.
 
 Once ProcessCounts has finished, open the Analysis Summary HTML file and look for the following things:
 
@@ -54,9 +50,5 @@ Once ProcessCounts has finished, open the Analysis Summary HTML file and look fo
   3. Examine the other plots, looking for correlation between replicates as well as differences 
      between experimental conditions
 
-> Additional Analyses: If you wish to compare your results to the results of another experiment, 
-> make a volcano plot or an ROC curve. (Code for a generic volcano plot and ROC curve can be 
-> found [here]().)
-
 Finally, if you haven't viewed the genome tracks for your experiment yet, use the 
-[BamToBigWig](https://fazallabbcm.github.io/BamToBigWig) pipeline to visualize your data.
+[BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipeline to visualize your data.
