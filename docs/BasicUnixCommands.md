@@ -70,8 +70,8 @@ navigating from the command line!
 
 To make a new folder inside your current folder, use the `mkdir` command. It stands for "Make 
 Directory". Type `mkdir` and the name of your new folder, but make sure that the name only has 
-letters, numbers, and underscores in it. (Spaces and other special characters will confuse the 
-computer.)
+letters, numbers, underscores, hyphens, and periods in it. (Spaces and other special characters 
+will confuse the computer.)
 ```
 mkdir NewFolderName
 ```
