@@ -84,4 +84,4 @@ name of the file.
 mv oldfilename.fastq.gz newfilename.fastq.gz
 ```
 
-Now you're all set to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines)!
+Now you're all set to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart)!
