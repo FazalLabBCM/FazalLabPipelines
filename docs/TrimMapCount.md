@@ -1,18 +1,11 @@
 # TrimMapCount: Data Alignment for RNA-Seq Experiments
 
-The [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) pipeline will map 
-your RNA sequences to a reference genome and count how many reads map to each gene. This process 
-produces useful data files from your raw data.
+The TrimMapCount pipeline will map your RNA sequences to a reference genome and count how many reads 
+map to each gene. This process produces useful data files from your raw data.
 
 
 ## Setup
 
-> #### First things first:
-> To use the pipelines, you will need to know how to use a few simple commands on the 
-> [TACO cluster](http://taco-wiki.grid.bcm.edu/mediawiki/index.php/MHGCP_User_Quick_Start_Guide). 
-> If you don't know how to sign in to the cluster, navigate in and out of folders, make new folders, 
-> and rename files, start with this short tutorial: 
-> [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
 
 #### Making Project Folders
 
@@ -62,7 +55,7 @@ by underscores):
    4. **A number to indicate which target or control sample** (one digit 0-9)
    5. **"R1.fastq" or "R2.fastq"** (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
 
-For example, data from the cytosol with two target samples and one control sample, all treated with puromycin, 
+For example, data from the cytosol with two target samples and two control samples, all treated with puromycin, 
 might be named like this:
    ```
    Cytosol-NES_puromycin_target_1_R1.fastq.gz
@@ -71,9 +64,11 @@ might be named like this:
    Cytosol-NES_puromycin_target_2_R2.fastq.gz
    Cytosol-NES_puromycin_control_1_R1.fastq.gz
    Cytosol-NES_puromycin_control_1_R2.fastq.gz
+   Cytosol-NES_puromycin_control_2_R1.fastq.gz
+   Cytosol-NES_puromycin_control_2_R2.fastq.gz
    ```
 
-Now, move these files into the appropriate `rawdata` folders. Your files should now be organized like this:
+Move these renamed files into the appropriate `rawdata` folders. Your files should now be organized like this:
 
 <img src="img/filestructure_files.png" width="90%" height="90%">
 
