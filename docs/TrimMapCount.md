@@ -70,7 +70,7 @@ this step!)
 Move your renamed raw data files into the appropriate `rawdata` folders. Your files should now be 
 organized like this:
 
-<img src="img/FileStructure_Files.png" width="90%" height="90%">
+<img src="img/FileStructure_Files.png" width="92%" height="92%">
 
 Now you are ready to run the pipeline! (The other pipelines don't require any setup, so the worst part is over 😊.)
 
