@@ -1,9 +1,9 @@
 # ProcessCounts: Data Analysis for RNA-Seq Experiments
 
-The [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) pipeline will use 
-the output from [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) to create 
-simple tables and figures. These tables and figures help show the quality of your raw data and the 
-results of your experiment.
+The ProcessCounts pipeline will use the output from 
+[TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) to create simple tables 
+and figures. These tables and figures help show the quality of your raw data and the results of your 
+experiment.
 
 
 ## Setup
@@ -27,6 +27,15 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
                  -o /storage/fazal/projects/yourname/yourexperiment \
                  -n ProjectName
    ```
+   > **Note:** If your control samples for each experimental condition are the same, add the `-c` option like 
+   > this (it will combine the controls for improved analysis and figures):
+   > ```
+   > ProcessCounts -d /storage/fazal/data/yourname/yourexperiment \
+   >               -o /storage/fazal/projects/yourname/yourexperiment \
+   >               -n ProjectName \
+   >               -c
+   > ```
+
    > **Note:** Only run ProcessCounts once. This pipeline analyzes the data from every condition 
    > in your experiment at the same time. If your aligned data files are separated into subfolders, 
    > just supply the path to the folder containing the subfolders.
@@ -36,9 +45,11 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
 
 ## What next?
 
-You can check the log file in your output folder to see the progress of your job as it runs.
+You can check the "ProcessCounts.log" file in your processed data folder to see the progress of your job as 
+it runs. It will say "DONE" at the bottom of the log file when the pipeline has finished successfully.
 
-Once ProcessCounts has finished, open the Analysis Summary HTML file and look for the following things:
+Once ProcessCounts has finished, go to your output folder and open the Analysis Summary HTML file in your 
+browser (the file is named like "YYYYMMDD_ProjectName_AnalysisSummary.html"). Look for the following things:
 
   1. Percentage of reads mapped uniquely is greater than 75% for each sample (remove any 
      samples that do not meet this criterion from future analyses) 
