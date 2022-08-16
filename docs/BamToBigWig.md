@@ -1,6 +1,6 @@
 # BamToBigWig: Data Visualization for RNA-Seq Experiments
 
-The [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipeline uses the output from 
+The BamToBigWig pipeline uses the output from 
 [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) to create genome tracks for your 
 data. The genome tracks will be stored in BigWig files that can be uploaded and viewed in interactive tools 
 such as the [UCSC Genome Browser](https://genome.ucsc.edu/).
@@ -20,9 +20,10 @@ Once it has finished successfully, you are ready to run the BamToBigWig pipeline
    export PATH=/storage/fazal/pipelines/BamToBigWig/scripts:"${PATH}"
    ```
    
-2. Run the following code:
+2. Run the following code (replacing the file path with the path to your experiment’s processed 
+   data folder):
    ```
-   BamToBigWig -d /path/to/data
+   BamToBigWig -d /storage/fazal/data/yourname/yourexperiment
    ```
    > **Note:** Just like ProcessCounts, only run BamToBigWig once. This pipeline creates genome 
    > tracks for every condition in your experiment at the same time. If your aligned data files 
@@ -32,7 +33,8 @@ Once it has finished successfully, you are ready to run the BamToBigWig pipeline
 
 ## What next?
 
-You can check the log file in your processed data folder to see the progress of your job as it runs.
+You can check the “BamToBigWig.log” file in your processed data folder to see the progress of your job as it runs. 
+It will say “DONE” at the bottom of the log file when the pipeline has finished successfully.
 
 Once BamToBigWig has finished, you are ready to view your experiment's genome tracks. Follow these 
 steps to view your genome tracks using the [UCSC Genome Browser](https://genome.ucsc.edu/):
