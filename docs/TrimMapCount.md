@@ -98,7 +98,8 @@ Now you are ready to run the pipeline! (The other pipelines don't require any se
 
 ## What next?
 
-You can check the log file in your processed data folder to see the progress of your job as it runs.
+You can check the "TrimMapCount.log" file in your processed data folder to see the progress of your job as 
+it runs. It will say "DONE" at the bottom of the log file when the pipeline has finished successfully.
 
 Once [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) has finished, 
 you will have all of the data files necessary for the 
