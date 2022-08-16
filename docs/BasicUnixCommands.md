@@ -89,10 +89,10 @@ name of the file.
 mv oldfilename.fastq.gz newfilename.fastq.gz
 ```
 
-Now you're all set to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart)!
+Now you know the basics of the command line!
 
 
-# Still feeling a little bit uncomfortable?
+# Accessing the TACO Cluster in a More Familiar Way than the Command Line
 
 The pipelines need to be run from the command line, so it is important to know the commands described 
 above. However, if you are anything like me, I bet you would feel more comfortable using a file viewer 
@@ -131,4 +131,4 @@ create, open, copy, rename, or delete a file or folder. Drag a file or folder to
 (from the cluster to your computer) or upload (from your computer to the cluster), simply drag files or 
 folders from one side to the other. Pretty intuitive!
 
-Hopefully now you are feeling ready to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart)!
+Now you are ready to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart)!
