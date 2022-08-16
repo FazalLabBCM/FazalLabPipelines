@@ -45,7 +45,7 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
 
 ## What next?
 
-You can check the "ProcessCounts.log" file in your processed data folder to see the progress of your job as 
+You can check the "ProcessCounts.log" file in your output folder to see the progress of your job as 
 it runs. It will say "DONE" at the bottom of the log file when the pipeline has finished successfully.
 
 Once ProcessCounts has finished, go to your output folder and open the Analysis Summary HTML file in your 
