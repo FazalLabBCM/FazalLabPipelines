@@ -1,7 +1,7 @@
 # Quick Start Guide: Processing Your RNA-Seq Data
 
-Welcome! You have just collected RNA sequencing data from an experiment, and now you 
-need to process it! This page will show you how to do this using the the Fazal Lab 
+Welcome! You have just collected (or are about to download) RNA sequencing data from an experiment, 
+and you need to process it! This page will show you how to do this using the the Fazal Lab 
 pipelines.
 
 > #### First things first:
@@ -10,6 +10,10 @@ pipelines.
 > If you don't know how to sign in to the cluster, navigate in and out of folders, make new folders, 
 > and rename files, start with this short tutorial: 
 > [Introduction to Using the Command Line](https://fazallabbcm.github.io/FazalLabPipelines/BasicUnixCommands)
+
+If you don't yet have data files to process, click here to 
+[download raw data](https://fazallabbcm.github.io/FazalLabPipelines/DownloadRawData).
+
 
 ## Begin Here
 The raw sequencing data you collected is in FASTQ format (the file names end in ".fastq"). It 
