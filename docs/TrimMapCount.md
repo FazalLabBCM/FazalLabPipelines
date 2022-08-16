@@ -7,7 +7,7 @@ map to each gene. This process produces useful data files from your raw data.
 ## Setup
 
 
-#### Making Project Folders
+### Making Project Folders
 
 On the TACO cluster, the Fazal lab has folders named `rawdata`, `data`, and `projects`. The 
 `rawdata` folder is for your raw data files, the `data` folder is for your processed data files, 
@@ -18,14 +18,14 @@ all with the same name. The name should have today's date and a title for your p
 underscore (for example: `YYYYMMDD_MyProject`). Your file structure and file names should look something 
 like this:
 
-<img src="img/filestructure_experimentfolders.png" width="44%" height="44%">
+<img src="img/FileStructure_ExperimentFolders.png" width="44%" height="44%">
 
 Naming and arranging our folders this way will help keep the TACO cluster organized.
 
 Now, create folders inside the `rawdata` and `data` folders for each combination of targeted location and 
 experimental condition in your experiment like this:
 
-<img src="img/filestructure_subfolders.png" width="60%" height="60%">
+<img src="img/FileStructure_Subfolders.png" width="60%" height="60%">
 
 (This step isn't neccessary, but it can save a lot of time. Instead of processing only one sample at a 
 time, separating your data into subfolders makes it possible to process samples for every location and 
@@ -33,7 +33,7 @@ condition at the same time. Since each sample takes about 2 hours to process, yo
 this step!)
 
 
-### Naming raw data files
+### Naming Raw Data Files
 
 In order for the pipeline to understand your experiment and what data is in each file, you have to name 
 your raw data files a certain way that the computer will recognize.
@@ -55,22 +55,18 @@ by underscores):
    4. **A number to indicate which target or control sample** (one digit 0-9)
    5. **"R1.fastq" or "R2.fastq"** (or "R1.fastq.gz" and "R2.fastq.gz" for zipped files)
 
-For example, data from the cytosol with two target samples and two control samples, all treated with puromycin, 
-might be named like this:
-   ```
-   Cytosol-NES_puromycin_target_1_R1.fastq.gz
-   Cytosol-NES_puromycin_target_1_R2.fastq.gz
-   Cytosol-NES_puromycin_target_2_R1.fastq.gz
-   Cytosol-NES_puromycin_target_2_R2.fastq.gz
-   Cytosol-NES_puromycin_control_1_R1.fastq.gz
-   Cytosol-NES_puromycin_control_1_R2.fastq.gz
-   Cytosol-NES_puromycin_control_2_R1.fastq.gz
-   Cytosol-NES_puromycin_control_2_R2.fastq.gz
-   ```
+
+For example:
+|   |   |
+| - | - |
+| If cytosolic RNA was the target (APEX enzyme fused to NES protein), and your cells were all treated with puromycin for 30 minutes, your data files might be named like this: | The same data files could also be named like this instead: |
+|  `CytosolNES_puromycin30min_target_1_R1.fastq.gz` `CytosolNES_puromycin30min_target_1_R2.fastq.gz` `CytosolNES_puromycin30min_target_2_R1.fastq.gz` `CytosolNES_puromycin30min_target_2_R2.fastq.gz` `CytosolNES_puromycin30min_control_1_R1.fastq.gz` `CytosolNES_puromycin30min_control_1_R2.fastq.gz` `CytosolNES_puromycin30min_control_2_R1.fastq.gz` `CytosolNES_puromycin30min_control_2_R2.fastq.gz`  |  `NES_puro_target_1_R1.fastq.gz` `NES_puro_target_1_R2.fastq.gz` `NES_puro_target_2_R1.fastq.gz` `NES_puro_target_2_R2.fastq.gz` `NES_puro_control_1_R1.fastq.gz` `NES_puro_control_1_R2.fastq.gz` `NES_puro_control_2_R1.fastq.gz` `NES_puro_control_2_R2.fastq.gz`  |
+
+However you choose to name your files, just make sure you follow the 5 rules and that your file names are all consistent (same style, same spelling, etc.).
 
 Move these renamed files into the appropriate `rawdata` folders. Your files should now be organized like this:
 
-<img src="img/filestructure_files.png" width="90%" height="90%">
+<img src="img/FileStructure_Files.png" width="90%" height="90%">
 
 Now you are ready!
 
