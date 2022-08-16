@@ -47,8 +47,9 @@ by underscores):
 
 
 For example, if cytosolic RNA was the target (APEX enzyme fused to NES protein), and your cells were all treated with puromycin for 30 minutes...
-|  .  |  .  |
-|  ---  |  ---  |
+
+|     |     |
+|  -  |  -  |
 |  ...your data files might be named like this:  |  ...or maybe like this:  |
 |  `CytosolNES_puromycin30min_target_1_R1.fastq.gz` `CytosolNES_puromycin30min_target_1_R2.fastq.gz` `CytosolNES_puromycin30min_target_2_R1.fastq.gz` `CytosolNES_puromycin30min_target_2_R2.fastq.gz` `CytosolNES_puromycin30min_control_1_R1.fastq.gz` `CytosolNES_puromycin30min_control_1_R2.fastq.gz` `CytosolNES_puromycin30min_control_2_R1.fastq.gz` `CytosolNES_puromycin30min_control_2_R2.fastq.gz`  |  `NES_puro_target_1_R1.fastq.gz` `NES_puro_target_1_R2.fastq.gz` `NES_puro_target_2_R1.fastq.gz` `NES_puro_target_2_R2.fastq.gz` `NES_puro_control_1_R1.fastq.gz` `NES_puro_control_1_R2.fastq.gz` `NES_puro_control_2_R1.fastq.gz` `NES_puro_control_2_R2.fastq.gz`  |
 
