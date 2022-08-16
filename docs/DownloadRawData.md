@@ -15,7 +15,7 @@
     (this will give the computer permission to run the code), and click "OK".
 11. Open your command prompt (Windows) or terminal (Apple) and sign in to the TACO cluster.
 12. Make sure you are in the same folder as the file you just created (you should see 
-    "download.sh" listed when you run the command `ls`).
+    "download.sh" listed when you run the `ls` command).
 13. Run the command `sbatch --time=UNLIMITED download.sh` from the comand line (it will submit a batch job 
     for the computer to run the code and download your data files).
 14. Run the command `squeue --me` (it will show you the status of all the jobs you have submitted).
