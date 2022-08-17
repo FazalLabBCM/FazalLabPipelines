@@ -105,4 +105,4 @@ Once [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount
 you will have all of the data files necessary for the 
 [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) and 
 [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipelines. Head back 
-to the [main page](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart) to keep going!
+to the [main page](https://fazallabbcm.github.io/FazalLabPipelines) to keep going!
