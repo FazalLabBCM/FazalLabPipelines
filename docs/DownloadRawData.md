@@ -28,5 +28,5 @@
     > immediately. Sometimes your job has to wait in the queue for computational resources to become available.)
 15. You will know that your download job is finished once you run `squeue --me` and see that your job is no 
     longer listed. Make sure that all of your files are now on the cluster before returning to the 
-    [main page](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart) to run the pipelines.
+    [main page](https://fazallabbcm.github.io/FazalLabPipelines) to run the pipelines.
      
