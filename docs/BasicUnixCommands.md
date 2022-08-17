@@ -40,7 +40,7 @@ To quickly describe where you are, this is your address:
 ```
 /storage/fazal/home/myuserid
 ```
-This address is also called an absolute path, because it shows the path to your location all the 
+This address is also called an *absolute path*, because it shows the path to your location all the 
 way from the "root" folder. To print your absolute path on the screen, type the command `pwd` and press 
 "Enter". `pwd` stands for "Print Working Directory", which is the same as "show current folder".
 
