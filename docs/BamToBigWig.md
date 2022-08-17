@@ -53,6 +53,7 @@ steps to view your genome tracks using the [UCSC Genome Browser](https://genome.
   3. Click "Browse Files", then select the bucket "BigWigFiles".
   4. Add a new folder for your experiment.
   5. Open the new folder and upload your BigWig files.
+
 #### Add Tracks to the Genome Browser
   6. Open Notepad (Windows) or TextEdit (Mac).
   7. For each BigWig file that you uploaded to BackBlaze: copy and paste this track line on a new line in the blank 
@@ -69,12 +70,16 @@ steps to view your genome tracks using the [UCSC Genome Browser](https://genome.
      (or sign up if you don't have an account).
   9. Open the [custom track management page](https://genome.ucsc.edu/cgi-bin/hgCustom) to add your custom tracks.
   10. Paste your custom track lines into the "Paste URLs or data" text box, then press "Submit".
+
 #### Create Track Collection
-  11. "My Data" "Track Collection Builder"
-  12. "Add Collection"
-  13. "Custom Tracks" and click plus sign
-  14. change color of targets
-  15. "Go"
+  11. At the top of the screen, select "My Data" and then "Track Collection Builder".
+  12. On the right side of the screen next to "Collected Tracks" click "Add Collection". Give your collection a 
+      name and description, then click "Save".
+  13. On the left side of the screen under "Available Tracks", click the folder labeled "Custom Tracks". Then click 
+      the green plus sign next to each track you just uploaded to add it to your new collection.
+  15. change color of targets
+  16. "Go"
+
 #### Save Session
   16. "Configure" screen
   17. GENCODE genes
