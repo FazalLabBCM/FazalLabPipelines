@@ -7,7 +7,7 @@ to know!
 
 ## Sign In to the TACO Cluster
 
-Open your command prompt (Windows) or terminal (Apple) application and type this command, 
+Open your command prompt (Windows) or terminal (Mac) application and type this command, 
 replacing `myuserid` with your user ID:
 ```
 ssh myuserid@taco.grid.bcm.edu
@@ -25,7 +25,7 @@ Now you're in!
 
 ## Navigate
 
-You may be wondering, "Now I'm _in_? In _where_? Where am I on the TACO cluster?" That's a great 
+You may be wondering, "Now I'm *in*? In *where*? Where am I on the TACO cluster?" That's a great 
 question! Here's a map:
 
 <img src="img/map.png" width="40%" height="40%">
@@ -100,14 +100,14 @@ app to create, rename, copy, move, and delete your files and folders!
 
 ## Download an SSH Client File Viewer
 
-### Windows Computers
-[WinSCP](https://winscp.net/eng/index.php) is an app like Windows file explorer that lets you view files 
+### Windows
+[WinSCP](https://winscp.net/eng/index.php) is an app like File Explorer that lets you view files 
 on your local computer and a remote computer (such as the TACO cluster) at the same time. Click here to 
 [download WinSCP](https://winscp.net/download/WinSCP-5.21.2-Setup.exe). When the download finishes, open 
 the installer and accept the defaults. Open the WinSCP application once it is installed.
 
-### Apple Computers
-[FileZilla](https://filezilla-project.org/) is an app like Apple finder that lets you view files on your 
+### Mac
+[FileZilla](https://filezilla-project.org/) is an app like Finder that lets you view files on your 
 local computer and a remote computer (such as the TACO cluster) as the same time. Click here to 
 [download FileZilla](https://dl4.cdn.filezilla-project.org/client/FileZilla_3.60.2_macosx-x86.app.tar.bz2?h=hxy6tuT1HHojwfvxOQH1aA&x=1660597873).
 When the download finishes, open the FileZilla application.
