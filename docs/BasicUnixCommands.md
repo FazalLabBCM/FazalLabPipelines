@@ -131,4 +131,4 @@ create, open, copy, rename, or delete a file or folder. Drag a file or folder to
 (from the cluster to your computer) or upload (from your computer to the cluster), simply drag files or 
 folders from one side to the other. Pretty intuitive!
 
-Now you are ready to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines/QuickStart)!
+Now you are ready to use the [FazalLabPipelines](https://fazallabbcm.github.io/FazalLabPipelines)!
