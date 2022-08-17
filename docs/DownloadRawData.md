@@ -13,7 +13,7 @@
 9. Create a new file called `download.sh`, paste the copied content into the file, and save.
 10. Right click on the file, select "Properties", check all of the Execute (or X) boxes under "Permissions" 
     (this will give the computer permission to run the code), and click "OK".
-11. Open your command prompt (Windows) or terminal (Apple) and sign in to the TACO cluster.
+11. Open your command prompt (Windows) or terminal (Mac) and sign in to the TACO cluster.
 12. Make sure you are in the same folder as the file you just created (you should see 
     "download.sh" listed when you run the `ls` command).
 13. Run the command `sbatch --time=UNLIMITED download.sh` (it will submit a batch job for the 
@@ -24,8 +24,10 @@
      JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
     ######     mhgcp download   userID  R      00:42      1 mhgcp-m00
     ```
-    > This example shows that 42 seconds have elapsed since the job started. (Note: Batch jobs don't always start 
-    > immediately. Sometimes your job has to wait in the queue for computational resources to become available.)
+    > **Note:** This example shows that 42 seconds have elapsed since the job started, but batch jobs don't 
+    > always start immediately. Sometimes your job has to wait in the queue for computational resources to 
+    > become available. You can sign out of the cluster (with the `exit` command) while your job is running 
+    > or in the queue.
 15. You will know that your download job is finished once you run `squeue --me` and see that your job is no 
     longer listed. Make sure that all of your files are now on the cluster before returning to the 
     [main page](https://fazallabbcm.github.io/FazalLabPipelines) to run the pipelines.
