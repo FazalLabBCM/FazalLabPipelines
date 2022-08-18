@@ -66,6 +66,7 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       > <img src="img/colors.png" width="80%" height="80%">
       > <img src="img/colors_muted.png" width="80%" height="80%">
       > <img src="img/colors_light.png" width="80%" height="80%">
+      > <img src="img/colors_bright.png" width="80%" height="80%">
   
   15. Click `GO` in the top right corner of the screen to return to the browser.
 
