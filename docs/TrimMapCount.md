@@ -30,7 +30,9 @@ your raw data files a certain way that the computer will recognize.
 
 Rename your raw FASTQ files so that each file name has these 5 things (in order and separated 
 by underscores):
+
 <img src="img/filename_example.png" width="60%" height="60%">
+
    1. **Targeted location/protein** (can't contain an underscore)
       * For an APEX-seq experiment, the subcellular location where APEX is targeted and/or which protein the 
         enzyme is fused to
