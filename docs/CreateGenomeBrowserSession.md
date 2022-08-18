@@ -101,7 +101,7 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       > 
       > <img src="img/GenomeBrowser_ConfigureCollection.png" width="60%" height="60%">
   
-  ## Save Your Session
+## Save Your Session
   
   20. At the top of the screen, select `My Data` and then `My Sessions`.
   
