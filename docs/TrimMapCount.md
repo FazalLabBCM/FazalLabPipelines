@@ -78,7 +78,8 @@ Now you are ready to run the pipeline! (The other pipelines don't require any se
 ## Running the Pipeline
 
 1. Copy and paste this code in the command line and press "Enter". (It will tell the computer where to find 
-   the code for the pipeline.) 
+   the code for the pipeline.)
+   
    ```
    export PATH=/storage/fazal/pipelines/TrimMapCount/scripts:"${PATH}"
    ```
@@ -87,6 +88,7 @@ Now you are ready to run the pipeline! (The other pipelines don't require any se
    
 3. Run the following code (replacing the file paths with the paths to your experiment's 
    raw data and processed data subfolders):
+   
    ```
    TrimMapCount -r /storage/fazal/rawdata/yourname/yourexperiment/location_condition \
                 -d /storage/fazal/data/yourname/yourexperiment/location_condition
