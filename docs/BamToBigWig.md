@@ -32,6 +32,8 @@ Once it has finished successfully, you are ready to run the BamToBigWig pipeline
    > tracks for every condition in your experiment at the same time. If your aligned data files 
    > are separated into subfolders, just supply the path to the folder containing the subfolders.
 
+   > **Note:** Run `BamToBigWig -h` or `BamToBigWig --help` if you want to see the help menu.
+
 3. Make sure that the processed data file path is correct. Then enter "y" to start the pipeline.
 
 
