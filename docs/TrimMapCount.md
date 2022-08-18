@@ -96,6 +96,8 @@ Now you are ready to run the pipeline! (The other pipelines don't require any se
                 -d /storage/fazal/data/yourname/yourexperiment/location_condition
    ```
 
+   > **Note:** Run `TrimMapCount -h` or `TrimMapCount --help` if you want to see the help menu.
+
 4. Make sure that the raw data and processed data file paths are correct. Then enter "y" to 
    start the pipeline.
 
