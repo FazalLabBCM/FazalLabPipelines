@@ -63,10 +63,11 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
   14. On the right side of the screen, double click each of target tracks and change the color.
       
       > **Note:** Here are some good colors to choose from. Just enter the code into the "Color" box and press `Save`.
-      > <img src="img/colors.png" width="80%" height="80%">
-      > <img src="img/colors_bright.png" width="80%" height="80%">
-      > <img src="img/colors_light.png" width="80%" height="80%">
-      > <img src="img/colors_muted.png" width="80%" height="80%">
+      > 
+      > <img src="img/colors.png" width="85%" height="85%">
+      > <img src="img/colors_bright.png" width="85%" height="85%">
+      > <img src="img/colors_light.png" width="85%" height="85%">
+      > <img src="img/colors_muted.png" width="85%" height="85%">
   
   15. Click `GO` in the top right corner of the screen to return to the browser.
 
@@ -81,7 +82,8 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       Then click `submit`.
       
       > **Note:** These are the default settings that I would recommend:
-      > <img src="img/GenomeBrowser_ConfigureImage.png" width="60%" height="60%">
+      > 
+      > <img src="img/GenomeBrowser_ConfigureImage.png" width="50%" height="50%">
   
   18. Drag the bar to the left of the GENCODE collection to position the genes above your tracks (as shown below).
       
@@ -89,19 +91,20 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       
       Now click the same bar to configure the genes displayed, then click `Submit`.
       
-      <img src="img/GenomeBrowser_ConfigureGENCODE.png" width="60%" height="60%">
+      > **Note:** These are the default settings that I would recommend:
+      > 
+      > <img src="img/GenomeBrowser_ConfigureGENCODE.png" width="40%" height="40%">
       
   19. Click the gray bar to the left of your collection to configure your tracks, then click `Submit`.
       
-      <img src="img/GenomeBrowser_ClickCollection.png" width="60%" height="60%">
-      
       > **Note:** These are the default settings that I would recommend:
+      > 
       > <img src="img/GenomeBrowser_ConfigureCollection.png" width="60%" height="60%">
   
   20. At the top of the screen, select `My Data` and then `My Sessions`.
   
   20. Under the heading "Save Settings", locate the option to "Save current settings as named session". Replace the 
-      text`hg38` with the name of your session and click `submit` on the right.
+      text `hg38` with the name of your session and click `submit` on the right.
       
       Now anyone can access your session at anytime using the link stored under "My Sessions".
       
