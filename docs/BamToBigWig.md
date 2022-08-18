@@ -41,4 +41,4 @@ You can check the “BamToBigWig.log” file in your processed data folder to se
 runs. It will say “DONE” at the bottom of the log file when the pipeline has finished successfully.
 
 Once BamToBigWig has finished, follow this tutorial to view your genome tracks: 
-[Viewing Genome Tracks in the UCSC Genome Browser](https://fazallabbcm.github.io/FazalLabPipelines/CreateUCSCGenomeBrowserSession)
+[Viewing Genome Tracks in the UCSC Genome Browser](https://fazallabbcm.github.io/FazalLabPipelines/CreateGenomeBrowserSession)
