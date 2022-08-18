@@ -100,11 +100,11 @@ steps to view your genome tracks using the [UCSC Genome Browser](https://genome.
       the green plus sign next to each track you just uploaded to add it to your new collection. (You should see the 
       tracks being added under the new collection folder you just made.)
       
-  14. On the right side of the screen, double click each of target tracks and change the the change color of targets
+  14. On the right side of the screen, double click each of target tracks and change the color.
       
-      <!-- Coolors Palette Widget -->
-      <script src="https://coolors.co/palette-widget/widget.js"></script>
-      <script data-id="0027682923727299746">new CoolorsPaletteWidget("0027682923727299746"["8a0020","ba2323","e67410","fac026","4f900e","104e8b","12067d","460b6f","6c0a52"]); </script>
+      > **Note:** Here are some good colors to choose from. Just enter the code into the "Color" box.
+      > 
+      "8a0020","ba2323","e67410","fac026","4f900e","104e8b","12067d","460b6f","6c0a52"
   
   15. "Go"
 
