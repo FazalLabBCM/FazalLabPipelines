@@ -110,13 +110,17 @@ steps to view your genome tracks using the [UCSC Genome Browser](https://genome.
 #### Save Session
 
   16. Scroll down to the collections listed below the viewing window. Make sure that all of the tracks and collections 
-      are set to "hide" except for the ones shown below:
+      are set to "hide" except for your new collection and the others shown below:
       
       <img src="img/GenomeBrowser_VisibleCollections.png" width="80%" height="80%">
   
-  17. GENCODE genes
+  17. Click the `configure` at the bottom of the viewing window to configure the viewing window according to your 
+      preferences. Then click `submit`.
+      
+      > **Note:** These are the default settings that I would recommend:
+      > <img src="img/GenomeBrowser_ConfigureImage.png" width="80%" height="80%">
   
-  18. "Configur"e screenany other edits to tracks
+  18. GENCODE genes, configure collection
   
   19. "My Data" "My Sessions"
   
