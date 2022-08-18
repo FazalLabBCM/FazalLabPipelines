@@ -25,15 +25,18 @@ useful output files and figures. Follow the steps and links below to begin!
 1. To start, use the [TrimMapCount](https://fazallabbcm.github.io/FazalLabPipelines/TrimMapCount) 
    pipeline. This is always step 1. It will map your RNA sequences to a reference genome and count 
    how many reads map to each gene. This process produces useful data files from your raw data.
+   
    <img src="img/pipeline1.png" width="80%" height="80%">
 
 2. Next, run the [ProcessCounts](https://fazallabbcm.github.io/FazalLabPipelines/ProcessCounts) 
    pipeline. This will use the output from TrimMapCount to create simple tables and figures. These 
    tables and figures help show the quality of your raw data and the results of your experiment.
+   
    <img src="img/pipeline2.png" width="80%" height="80%">
 
 3. Finally, use the [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig). 
    pipeline. This pipeline uses the output from TrimMapCount to create genome tracks for your data. 
    The genome tracks will be stored in BigWig files that can be uploaded and viewed in interactive 
    tools such as the [UCSC Genome Browser](https://genome.ucsc.edu/).
+   
    <img src="img/pipeline3.png" width="80%" height="80%">
