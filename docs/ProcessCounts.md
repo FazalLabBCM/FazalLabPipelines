@@ -15,18 +15,21 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
 ## Running the Pipeline
 
 1. Copy and paste this code in the command line and press "Enter". (It will tell the computer where to find 
-   the code for the pipeline.) 
+   the code for the pipeline.)
+   
    ```
    export PATH=/storage/fazal/pipelines/ProcessCounts/scripts:"${PATH}"
    ```
    
 2. Run the following code (replacing the file paths with the paths to your experiment's 
    processed data and output folders):
+   
    ```
    ProcessCounts -d /storage/fazal/data/yourname/yourexperiment \
                  -o /storage/fazal/projects/yourname/yourexperiment \
                  -n ProjectName
    ```
+   
    > **Note:** If your control samples for each experimental condition are the same, add the `-c` option like 
    > this (it will combine the controls for improved analysis and figures):
    > ```
@@ -39,6 +42,7 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
    > **Note:** Only run ProcessCounts once. This pipeline analyzes the data from every condition 
    > in your experiment at the same time. If your aligned data files are separated into subfolders, 
    > just supply the path to the folder containing the subfolders.
+   
 3. Make sure that the processed data and output file paths are correct. Then enter "y" to 
    start the pipeline.
 
