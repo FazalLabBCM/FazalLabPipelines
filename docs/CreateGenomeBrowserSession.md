@@ -3,7 +3,7 @@
 After running the [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipeline, follow 
 these steps to view your genome tracks in the [UCSC Genome Browser](https://genome.ucsc.edu/).
 
-## Host BigWig Files Online
+## Host Your BigWig Files Online
 
   1. Go to your processed data folder on the cluster and download every BigWig file that ends in 
      "controls_uns.norm_avg.bw" or "targets_uns.norm_avg.bw" to your local computer.
@@ -49,7 +49,7 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
   
   10. Paste your custom track lines into the "Paste URLs or data" text box, then press `Submit`.
 
-## Create Track Collection
+## Create a Track Collection
 
   11. At the top of the screen, select `My Data` and then `Track Collection Builder`.
   
@@ -71,12 +71,12 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
   
   15. Click `GO` in the top right corner of the screen to return to the browser.
 
-## Save Session
+## Configure the Viewing Window
 
   16. Scroll down to the collections listed below the viewing window. Make sure that all of the tracks and collections 
       are set to "hide" except for your new collection and the others shown below:
       
-      <img src="img/GenomeBrowser_VisibleCollections.png" width="80%" height="80%">
+      <img src="img/GenomeBrowser_VisibleCollections.png" width="70%" height="70%">
   
   17. Click the `configure` at the bottom of the viewing window to configure the image according to your preferences. 
       Then click `submit`.
@@ -87,7 +87,7 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
   
   18. Drag the bar to the left of the GENCODE collection to position the genes above your tracks (as shown below).
       
-      <img src="img/GenomeBrowser_ClickGENCODE.png" width="60%" height="60%">
+      <img src="img/GenomeBrowser_ClickGENCODE.png" width="70%" height="70%">
       
       Now click the same bar to configure the genes displayed, then click `Submit`.
       
@@ -101,11 +101,13 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       > 
       > <img src="img/GenomeBrowser_ConfigureCollection.png" width="60%" height="60%">
   
+  ## Save Your Session
+  
   20. At the top of the screen, select `My Data` and then `My Sessions`.
   
-  20. Under the heading "Save Settings", locate the option to "Save current settings as named session". Replace the 
+  21. Under the heading "Save Settings", locate the option to "Save current settings as named session". Replace the 
       text `hg38` with the name of your session and click `submit` on the right.
       
-      Now anyone can access your session at anytime using the link stored under "My Sessions".
+  Now anyone can access your session at anytime using the link stored under "My Sessions".
       
-      Happy browsing!
+  Happy browsing!
