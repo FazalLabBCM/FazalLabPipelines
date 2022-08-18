@@ -100,6 +100,11 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       > **Note:** These are the default settings that I would recommend:
       > 
       > <img src="img/GenomeBrowser_ConfigureCollection.png" width="60%" height="60%">
+      
+  20. If you know of a good gene to have featured when you open your session, type the gene name in the search box 
+      and select it from the drop-down list of results.
+      
+      <img src="img/GenomeBrowser_SelectGene.png" width="70%" height="70%">
   
 ## Save Your Session
   
