@@ -44,7 +44,7 @@ This address is also called an *absolute path*, because it shows the path to you
 way from the "root" folder. To print your absolute path on the screen, type the command `pwd` and press 
 "Enter". `pwd` stands for "Print Working Directory", which is the same as "show current folder".
 
-<img src="img/pwd.png" width="30%" height="30%">
+<img src="img/command_pwd.png" width="30%" height="30%">
 
 If you want to change your location, use the command `cd`, which stands for "Change Directory". After 
 you type `cd`, hit the spacebar and type the address of your destination so that the computer knows 
@@ -54,12 +54,12 @@ cd /absolute/path/to/destination
 ```
 Then press "Enter" and you will arrive at your destination!
 
-<img src="img/cd.png" width="43%" height="43%">
+<img src="img/command_cd.png" width="43%" height="43%">
 
 Once you arrive at your destination, you can use the command `ls` to "List" the contents of your 
 current folder.
 
-<img src="img/ls.png" width="61%" height="61%">
+<img src="img/command_ls.png" width="61%" height="61%">
 
 Now you know how to use `pwd` to print the address to your current folder, `cd` to change folders, 
 and `ls` to list the contents of your current folder. That's everything you need to know about 
