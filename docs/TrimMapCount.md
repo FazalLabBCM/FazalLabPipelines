@@ -18,7 +18,7 @@ all with the same name. The name should have today's date and a title for your p
 underscore (for example: `YYYYMMDD_MyProject`). Your file structure and file names should look something 
 like this:
 
-<img src="img/FileStructure_ExperimentFolders.png" width="50%" height="44%">
+<img src="img/FileStructure_ExperimentFolders.png" width="50%" height="50%">
 
 Naming and arranging our folders this way will help keep the TACO cluster organized.
 
@@ -60,7 +60,7 @@ However you choose to name your files, just make sure you follow the 5 rules and
 Create folders inside your experiment's `rawdata` and `data` folders for each combination of targeted 
 location and experimental condition in your experiment like this:
 
-<img src="img/FileStructure_Subfolders.png" width="65%" height="60%">
+<img src="img/FileStructure_Subfolders.png" width="65%" height="65%">
 
 (This step isn't neccessary, but it can save a lot of time. Instead of processing only one sample at a 
 time, separating your data into subfolders makes it possible to process samples for every location and 
