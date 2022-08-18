@@ -16,15 +16,18 @@ Once it has finished successfully, you are ready to run the BamToBigWig pipeline
 
 1. Copy and paste this code in the command line and press “Enter”. (It will tell the computer where to 
    find the code for the pipeline.)
+   
    ```
    export PATH=/storage/fazal/pipelines/BamToBigWig/scripts:"${PATH}"
    ```
    
 2. Run the following code (replacing the file path with the path to your experiment’s processed 
    data folder):
+   
    ```
    BamToBigWig -d /storage/fazal/data/yourname/yourexperiment
    ```
+   
    > **Note:** Just like ProcessCounts, only run BamToBigWig once. This pipeline creates genome 
    > tracks for every condition in your experiment at the same time. If your aligned data files 
    > are separated into subfolders, just supply the path to the folder containing the subfolders.
