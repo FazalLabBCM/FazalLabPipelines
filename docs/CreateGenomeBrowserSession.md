@@ -78,7 +78,7 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       
       <img src="img/GenomeBrowser_VisibleCollections.png" width="70%" height="70%">
   
-  17. Click the `configure` at the bottom of the viewing window to configure the image according to your preferences. 
+  17. Click `configure` at the bottom of the viewing window to configure the image according to your preferences. 
       Then click `submit`.
       
       > **Note:** These are the default settings that I would recommend:
