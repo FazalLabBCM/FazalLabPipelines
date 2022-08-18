@@ -108,9 +108,9 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
   
 ## Save Your Session
   
-  20. At the top of the screen, select `My Data` and then `My Sessions`.
+  21. At the top of the screen, select `My Data` and then `My Sessions`.
   
-  21. Under the heading "Save Settings", locate the option to "Save current settings as named session". Replace the 
+  22. Under the heading "Save Settings", locate the option to "Save current settings as named session". Replace the 
       text `hg38` with the name of your session and click `submit` on the right.
       
   Now anyone can access your session at anytime using the link stored under "My Sessions".
