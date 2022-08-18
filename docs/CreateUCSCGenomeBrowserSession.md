@@ -1,7 +1,7 @@
 # Viewing Genome Tracks in the UCSC Genome Browser
 
 After running the [BamToBigWig](https://fazallabbcm.github.io/FazalLabPipelines/BamToBigWig) pipeline, follow 
-these steps to view your genome tracks in the [UCSC Genome Browser](https://genome.ucsc.edu/):
+these steps to view your genome tracks in the [UCSC Genome Browser](https://genome.ucsc.edu/).
 
 ## Host BigWig Files Online
 
