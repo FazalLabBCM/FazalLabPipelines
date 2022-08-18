@@ -102,11 +102,10 @@ steps to view your genome tracks using the [UCSC Genome Browser](https://genome.
       
   14. On the right side of the screen, double click each of target tracks and change the color.
       
-      > **Note:** Here are some good colors to choose from. Just enter the code into the "Color" box.
-      > <img src="img/colors.png" width="50%" height="50%">
-      "8a0020","ba2323","e67410","fac026","4f900e","104e8b","12067d","460b6f","6c0a52"
+      > **Note:** Here are some good colors to choose from. Just enter the code into the "Color" box and press `Save`.
+      > <img src="img/colors.png" width="80%" height="80%">
   
-  15. "Go"
+  15. Click `GO` in the top right corner of the screen.
 
 #### Save Session
 
