@@ -83,17 +83,22 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       > **Note:** These are the default settings that I would recommend:
       > <img src="img/GenomeBrowser_ConfigureImage.png" width="60%" height="60%">
   
-  18. Drag the gray bar to the left of the GENCODE collection to position the genes above your tracks (as shown 
-      below).
+  18. Drag the bar to the left of the GENCODE collection to position the genes above your tracks (as shown below).
       
       <img src="img/GenomeBrowser_ClickGENCODE.png" width="60%" height="60%">
       
-      Then click the same gray bar to configure the genes displayed.
+      Now click the same bar to configure the genes displayed, then click `Submit`.
       
-      Now click the gray bar to the left of your collection to configure your tracks.
+      <img src="img/GenomeBrowser_ConfigureGENCODE.png" width="60%" height="60%">
+      
+  19. Click the gray bar to the left of your collection to configure your tracks.
       
       <img src="img/GenomeBrowser_ClickCollection.png" width="60%" height="60%">
+      
+      These are the settings I recommend:
+      
+      <img src="img/GenomeBrowser_ConfigureCollection.png" width="60%" height="60%">
   
-  19. "My Data" "My Sessions"
+  20. "My Data" "My Sessions"
   
   20. Under "Save Settings" change name and click "submit"
