@@ -105,12 +105,19 @@ steps to view your genome tracks using the [UCSC Genome Browser](https://genome.
       > **Note:** Here are some good colors to choose from. Just enter the code into the "Color" box and press `Save`.
       > <img src="img/colors.png" width="80%" height="80%">
   
-  15. Click `GO` in the top right corner of the screen.
+  15. Click `GO` in the top right corner of the screen to return to the browser.
 
 #### Save Session
 
-  16. "Configure" screen
+  16. Scroll down to the collections listed below the viewing window. Make sure that all of the tracks and collections 
+      are set to "hide" except for the ones shown below:
+      
+      <img src="img/GenomeBrowser_VisibleCollections.png" width="80%" height="80%">
+  
   17. GENCODE genes
-  18. any other edits to tracks
+  
+  18. "Configur"e screenany other edits to tracks
+  
   19. "My Data" "My Sessions"
+  
   20. Under "Save Settings" change name and click "submit"
