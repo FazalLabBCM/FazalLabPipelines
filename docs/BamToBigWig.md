@@ -121,9 +121,14 @@ steps to view your genome tracks using the [UCSC Genome Browser](https://genome.
       > <img src="img/GenomeBrowser_ConfigureImage.png" width="60%" height="60%">
   
   18. Drag the gray bar to the left of the GENCODE collection to position the genes above your tracks (as shown 
-      below), then click the same gray bar to configure the genes displayed.
+      below).
+      
       <img src="img/GenomeBrowser_ClickGENCODE.png" width="60%" height="60%">
+      
+      Then click the same gray bar to configure the genes displayed.
+      
       Now click the gray bar to the left of your collection to configure your tracks.
+      
       <img src="img/GenomeBrowser_ClickCollection.png" width="60%" height="60%">
   
   19. "My Data" "My Sessions"
