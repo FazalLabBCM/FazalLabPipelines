@@ -25,7 +25,7 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
   
   5. Open the new folder and upload your BigWig files.
 
-#### Add Tracks to the Genome Browser
+## Add Tracks to the Genome Browser
 
   6. Open Notepad (Windows) or TextEdit (Mac).
   
@@ -49,7 +49,7 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
   
   10. Paste your custom track lines into the "Paste URLs or data" text box, then press `Submit`.
 
-#### Create Track Collection
+## Create Track Collection
 
   11. At the top of the screen, select `My Data` and then `Track Collection Builder`.
   
@@ -66,7 +66,8 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       > <img src="img/colors.png" width="80%" height="80%">
   
   15. Click `GO` in the top right corner of the screen to return to the browser.
-#### Save Session
+
+## Save Session
 
   16. Scroll down to the collections listed below the viewing window. Make sure that all of the tracks and collections 
       are set to "hide" except for your new collection and the others shown below:
