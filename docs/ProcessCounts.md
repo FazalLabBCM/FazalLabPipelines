@@ -42,6 +42,8 @@ Once it has finished successfully, you are ready to run the ProcessCounts pipeli
    > **Note:** Only run ProcessCounts once. This pipeline analyzes the data from every condition 
    > in your experiment at the same time. If your aligned data files are separated into subfolders, 
    > just supply the path to the folder containing the subfolders.
+
+   > **Note:** Run `ProcessCounts -h` or `ProcessCounts --help` if you want to see the help menu.
    
 3. Make sure that the processed data and output file paths are correct. Then enter "y" to 
    start the pipeline.
