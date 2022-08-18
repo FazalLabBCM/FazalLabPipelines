@@ -91,14 +91,18 @@ these steps to view your genome tracks in the [UCSC Genome Browser](https://geno
       
       <img src="img/GenomeBrowser_ConfigureGENCODE.png" width="60%" height="60%">
       
-  19. Click the gray bar to the left of your collection to configure your tracks.
+  19. Click the gray bar to the left of your collection to configure your tracks, then click `Submit`.
       
       <img src="img/GenomeBrowser_ClickCollection.png" width="60%" height="60%">
       
-      These are the settings I recommend:
+      > **Note:** These are the default settings that I would recommend:
+      > <img src="img/GenomeBrowser_ConfigureCollection.png" width="60%" height="60%">
+  
+  20. At the top of the screen, select `My Data` and then `My Sessions`.
+  
+  20. Under the heading "Save Settings", locate the option to "Save current settings as named session". Replace the 
+      text`hg38` with the name of your session and click `submit` on the right.
       
-      <img src="img/GenomeBrowser_ConfigureCollection.png" width="60%" height="60%">
-  
-  20. "My Data" "My Sessions"
-  
-  20. Under "Save Settings" change name and click "submit"
+      Now anyone can access your session at anytime using the link stored under "My Sessions".
+      
+      Happy browsing!
