@@ -108,7 +108,7 @@ the installer and accept the defaults. Open the WinSCP application once it is in
 
 ### Mac
 [FileZilla](https://filezilla-project.org/) is an app like Finder that lets you view files on your 
-local computer and a remote computer (such as the TACO cluster) as the same time. Click here to 
+local computer and a remote computer (such as the TACO cluster) at the same time. Click here to 
 [download FileZilla](https://dl4.cdn.filezilla-project.org/client/FileZilla_3.60.2_macosx-x86.app.tar.bz2?h=hxy6tuT1HHojwfvxOQH1aA&x=1660597873).
 When the download finishes, open the FileZilla application.
 
